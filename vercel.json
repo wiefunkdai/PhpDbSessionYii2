@@ -1,0 +1,31 @@
+{
+    "version": 2,
+    "installCommand": "npx npm@7 install && npm install",
+    "builds": [
+        { "src": "/vercel.php", "use": "vercel-php@0.7.0" },
+        { "src": "/node_modules/**", "use": "@vercel/static" },
+        { "src": "/web/**", "use": "@vercel/static" }
+    ],
+    "routes": [
+        { "src": "/favicon.ico", "dest": "web/favicon.ico" },
+        { "src": "/robots.txt", "dest": "web/robots.txt" },
+        {
+            "src": "/(bootstrap|bootstrap-icons|inputmask|jquery|punycode|yii2-pjax)/(.*)",
+            "dest": "node_modules/$1/$2"
+        },
+        {
+            "src": "/(themes|medias|bundles)/(.*)",
+            "dest": "web/$1/$2"
+        },
+        {
+            "src": "/(.*)",
+            "dest": "/vercel.php"
+        }
+    ],
+    "env": {
+        "APP_NAME": "Vercel Yii2 SDaiLover PhpDbSession",
+        "APP_ENV": "production",
+        "APP_DEBUG": "true",
+        "APP_URL": "https://phpdbsessionyii2-wiefunkdai.vercel.app"
+    }
+}

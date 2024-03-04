@@ -1,0 +1,52 @@
+##
+# SDaiLover Web Packages
+#
+# @author    : Stephanus Bagus Saputra,
+#              ( 戴 Dai 偉 Wie 峯 Funk )
+# @email     : wiefunk@stephanusdai.web.id
+# @contact   : https://t.me/wiefunkdai
+# @support   : https://opencollective.com/wiefunkdai
+# @link      : https://www.stephanusdai.web.id
+# @license   : https://wiefunkdai.github.io/license.html
+# @copyright : (c) 2024 Stephanus Bagus Saputra. All rights reserved.
+# This software using Yii Framework has released under the terms of the BSD License.
+#
+
+<IfModule mod_rewrite.c>
+    Options +FollowSymlinks -MultiViews -Indexes
+</IfModule>
+
+<IfModule mod_php4.c> 
+    php_flag register_globals Off
+</IfModule>
+
+<IfModule mod_php5.c> 
+    php_flag allow_url_include Off
+    php_flag register_globals Off
+</IfModule>
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Enable Force HTTPS
+    RewriteCond %{HTTPS} off
+    RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+    # Handle Authorization Header
+    RewriteCond %{HTTP:Authorization} .
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+    # Redirect Trailing Slashes If Not A Folder...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_URI} (.+)/$
+    RewriteRule ^ %1 [L,R=301]
+
+    # Send Requests To Front Controller...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+</IfModule>
+
+ErrorDocument 404 /error?code=404
+ErrorDocument 403 /error?code=403
+ErrorDocument 401 /error?code=401

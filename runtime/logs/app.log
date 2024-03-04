@@ -1,0 +1,2119 @@
+2024-03-04 12:39:10 [::1][-][-][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: Unable to determine the path info of the current request. in /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Request.php:989
+Stack trace:
+#0 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Request.php(930): yii\web\Request->resolvePathInfo()
+#1 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/UrlRule.php(390): yii\web\Request->getPathInfo()
+#2 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/UrlManager.php(325): yii\web\UrlRule->parseRequest()
+#3 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Request.php(287): yii\web\UrlManager->parseRequest()
+#4 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Application.php(82): yii\web\Request->resolve()
+#5 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#6 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/web/index.php(26): yii\base\Application->run()
+#7 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/api/index.php(17): require_once('...')
+#8 {main}
+2024-03-04 12:39:10 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_session-sdailover' => 'tfrklpq8su6onn20hu033k98s6'
+    '_csrf-sdailover' => '7d9ac145a81057dc261345c033ffa5036770992a5c6e04313f28979ed231aae7a:2:{i:0;s:15:\"_csrf-sdailover\";i:1;s:32:\"s-LzCpUPj0LMDS3j0V29dwzEmEWXHJh2\";}'
+    '_identity-sdailover' => '9b3940f717ebc52c1344d1a723b4be6d9970b4c43a56a2438241e97a3e496e85a:2:{i:0;s:19:\"_identity-sdailover\";i:1;s:25:\"[\"100\",\"demo100\",2592000]\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '43766'
+    'SERVER_SOFTWARE' => 'PHP 8.2.16 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8000'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/'
+    'SCRIPT_FILENAME' => 'api/index.php'
+    'PHP_SELF' => '/'
+    'HTTP_HOST' => 'localhost:8000'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_session-sdailover=tfrklpq8su6onn20hu033k98s6; _csrf-sdailover=7d9ac145a81057dc261345c033ffa5036770992a5c6e04313f28979ed231aae7a%3A2%3A%7Bi%3A0%3Bs%3A15%3A%22_csrf-sdailover%22%3Bi%3A1%3Bs%3A32%3A%22s-LzCpUPj0LMDS3j0V29dwzEmEWXHJh2%22%3B%7D; _identity-sdailover=9b3940f717ebc52c1344d1a723b4be6d9970b4c43a56a2438241e97a3e496e85a%3A2%3A%7Bi%3A0%3Bs%3A19%3A%22_identity-sdailover%22%3Bi%3A1%3Bs%3A25%3A%22%5B%22100%22%2C%22demo100%22%2C2592000%5D%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'cross-site'
+    'REQUEST_TIME_FLOAT' => 1709530750.8278
+    'REQUEST_TIME' => 1709530750
+]
+2024-03-04 12:39:23 [::1][-][-][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: Unable to determine the path info of the current request. in /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Request.php:989
+Stack trace:
+#0 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Request.php(930): yii\web\Request->resolvePathInfo()
+#1 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/UrlRule.php(390): yii\web\Request->getPathInfo()
+#2 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/UrlManager.php(325): yii\web\UrlRule->parseRequest()
+#3 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Request.php(287): yii\web\UrlManager->parseRequest()
+#4 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Application.php(82): yii\web\Request->resolve()
+#5 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#6 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/web/index.php(26): yii\base\Application->run()
+#7 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/api/index.php(17): require_once('...')
+#8 {main}
+2024-03-04 12:39:23 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_session-sdailover' => 'tfrklpq8su6onn20hu033k98s6'
+    '_csrf-sdailover' => '7d9ac145a81057dc261345c033ffa5036770992a5c6e04313f28979ed231aae7a:2:{i:0;s:15:\"_csrf-sdailover\";i:1;s:32:\"s-LzCpUPj0LMDS3j0V29dwzEmEWXHJh2\";}'
+    '_identity-sdailover' => '9b3940f717ebc52c1344d1a723b4be6d9970b4c43a56a2438241e97a3e496e85a:2:{i:0;s:19:\"_identity-sdailover\";i:1;s:25:\"[\"100\",\"demo100\",2592000]\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '45518'
+    'SERVER_SOFTWARE' => 'PHP 8.2.16 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8000'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/'
+    'SCRIPT_FILENAME' => 'api/index.php'
+    'PHP_SELF' => '/'
+    'HTTP_HOST' => 'localhost:8000'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_session-sdailover=tfrklpq8su6onn20hu033k98s6; _csrf-sdailover=7d9ac145a81057dc261345c033ffa5036770992a5c6e04313f28979ed231aae7a%3A2%3A%7Bi%3A0%3Bs%3A15%3A%22_csrf-sdailover%22%3Bi%3A1%3Bs%3A32%3A%22s-LzCpUPj0LMDS3j0V29dwzEmEWXHJh2%22%3B%7D; _identity-sdailover=9b3940f717ebc52c1344d1a723b4be6d9970b4c43a56a2438241e97a3e496e85a%3A2%3A%7Bi%3A0%3Bs%3A19%3A%22_identity-sdailover%22%3Bi%3A1%3Bs%3A25%3A%22%5B%22100%22%2C%22demo100%22%2C2592000%5D%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'REQUEST_TIME_FLOAT' => 1709530763.434
+    'REQUEST_TIME' => 1709530763
+]
+2024-03-04 12:39:23 [::1][-][-][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: Unable to determine the path info of the current request. in /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Request.php:989
+Stack trace:
+#0 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Request.php(930): yii\web\Request->resolvePathInfo()
+#1 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/UrlRule.php(390): yii\web\Request->getPathInfo()
+#2 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/UrlManager.php(325): yii\web\UrlRule->parseRequest()
+#3 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Request.php(287): yii\web\UrlManager->parseRequest()
+#4 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Application.php(82): yii\web\Request->resolve()
+#5 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#6 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/web/index.php(26): yii\base\Application->run()
+#7 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/api/index.php(17): require_once('...')
+#8 {main}
+2024-03-04 12:39:23 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_session-sdailover' => 'tfrklpq8su6onn20hu033k98s6'
+    '_csrf-sdailover' => '7d9ac145a81057dc261345c033ffa5036770992a5c6e04313f28979ed231aae7a:2:{i:0;s:15:\"_csrf-sdailover\";i:1;s:32:\"s-LzCpUPj0LMDS3j0V29dwzEmEWXHJh2\";}'
+    '_identity-sdailover' => '9b3940f717ebc52c1344d1a723b4be6d9970b4c43a56a2438241e97a3e496e85a:2:{i:0;s:19:\"_identity-sdailover\";i:1;s:25:\"[\"100\",\"demo100\",2592000]\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '45520'
+    'SERVER_SOFTWARE' => 'PHP 8.2.16 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8000'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/'
+    'SCRIPT_FILENAME' => 'api/index.php'
+    'PHP_SELF' => '/'
+    'HTTP_HOST' => 'localhost:8000'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_session-sdailover=tfrklpq8su6onn20hu033k98s6; _csrf-sdailover=7d9ac145a81057dc261345c033ffa5036770992a5c6e04313f28979ed231aae7a%3A2%3A%7Bi%3A0%3Bs%3A15%3A%22_csrf-sdailover%22%3Bi%3A1%3Bs%3A32%3A%22s-LzCpUPj0LMDS3j0V29dwzEmEWXHJh2%22%3B%7D; _identity-sdailover=9b3940f717ebc52c1344d1a723b4be6d9970b4c43a56a2438241e97a3e496e85a%3A2%3A%7Bi%3A0%3Bs%3A19%3A%22_identity-sdailover%22%3Bi%3A1%3Bs%3A25%3A%22%5B%22100%22%2C%22demo100%22%2C2592000%5D%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'REQUEST_TIME_FLOAT' => 1709530763.9629
+    'REQUEST_TIME' => 1709530763
+]
+2024-03-04 12:39:24 [::1][-][-][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: Unable to determine the path info of the current request. in /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Request.php:989
+Stack trace:
+#0 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Request.php(930): yii\web\Request->resolvePathInfo()
+#1 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/UrlRule.php(390): yii\web\Request->getPathInfo()
+#2 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/UrlManager.php(325): yii\web\UrlRule->parseRequest()
+#3 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Request.php(287): yii\web\UrlManager->parseRequest()
+#4 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Application.php(82): yii\web\Request->resolve()
+#5 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#6 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/web/index.php(26): yii\base\Application->run()
+#7 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/api/index.php(17): require_once('...')
+#8 {main}
+2024-03-04 12:39:24 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_session-sdailover' => 'tfrklpq8su6onn20hu033k98s6'
+    '_csrf-sdailover' => '7d9ac145a81057dc261345c033ffa5036770992a5c6e04313f28979ed231aae7a:2:{i:0;s:15:\"_csrf-sdailover\";i:1;s:32:\"s-LzCpUPj0LMDS3j0V29dwzEmEWXHJh2\";}'
+    '_identity-sdailover' => '9b3940f717ebc52c1344d1a723b4be6d9970b4c43a56a2438241e97a3e496e85a:2:{i:0;s:19:\"_identity-sdailover\";i:1;s:25:\"[\"100\",\"demo100\",2592000]\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '45524'
+    'SERVER_SOFTWARE' => 'PHP 8.2.16 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8000'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/'
+    'SCRIPT_FILENAME' => 'api/index.php'
+    'PHP_SELF' => '/'
+    'HTTP_HOST' => 'localhost:8000'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_session-sdailover=tfrklpq8su6onn20hu033k98s6; _csrf-sdailover=7d9ac145a81057dc261345c033ffa5036770992a5c6e04313f28979ed231aae7a%3A2%3A%7Bi%3A0%3Bs%3A15%3A%22_csrf-sdailover%22%3Bi%3A1%3Bs%3A32%3A%22s-LzCpUPj0LMDS3j0V29dwzEmEWXHJh2%22%3B%7D; _identity-sdailover=9b3940f717ebc52c1344d1a723b4be6d9970b4c43a56a2438241e97a3e496e85a%3A2%3A%7Bi%3A0%3Bs%3A19%3A%22_identity-sdailover%22%3Bi%3A1%3Bs%3A25%3A%22%5B%22100%22%2C%22demo100%22%2C2592000%5D%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'REQUEST_TIME_FLOAT' => 1709530764.164
+    'REQUEST_TIME' => 1709530764
+]
+2024-03-04 12:39:24 [::1][-][-][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: Unable to determine the path info of the current request. in /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Request.php:989
+Stack trace:
+#0 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Request.php(930): yii\web\Request->resolvePathInfo()
+#1 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/UrlRule.php(390): yii\web\Request->getPathInfo()
+#2 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/UrlManager.php(325): yii\web\UrlRule->parseRequest()
+#3 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Request.php(287): yii\web\UrlManager->parseRequest()
+#4 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Application.php(82): yii\web\Request->resolve()
+#5 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#6 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/web/index.php(26): yii\base\Application->run()
+#7 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/api/index.php(17): require_once('...')
+#8 {main}
+2024-03-04 12:39:24 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_session-sdailover' => 'tfrklpq8su6onn20hu033k98s6'
+    '_csrf-sdailover' => '7d9ac145a81057dc261345c033ffa5036770992a5c6e04313f28979ed231aae7a:2:{i:0;s:15:\"_csrf-sdailover\";i:1;s:32:\"s-LzCpUPj0LMDS3j0V29dwzEmEWXHJh2\";}'
+    '_identity-sdailover' => '9b3940f717ebc52c1344d1a723b4be6d9970b4c43a56a2438241e97a3e496e85a:2:{i:0;s:19:\"_identity-sdailover\";i:1;s:25:\"[\"100\",\"demo100\",2592000]\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '45530'
+    'SERVER_SOFTWARE' => 'PHP 8.2.16 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8000'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/'
+    'SCRIPT_FILENAME' => 'api/index.php'
+    'PHP_SELF' => '/'
+    'HTTP_HOST' => 'localhost:8000'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_session-sdailover=tfrklpq8su6onn20hu033k98s6; _csrf-sdailover=7d9ac145a81057dc261345c033ffa5036770992a5c6e04313f28979ed231aae7a%3A2%3A%7Bi%3A0%3Bs%3A15%3A%22_csrf-sdailover%22%3Bi%3A1%3Bs%3A32%3A%22s-LzCpUPj0LMDS3j0V29dwzEmEWXHJh2%22%3B%7D; _identity-sdailover=9b3940f717ebc52c1344d1a723b4be6d9970b4c43a56a2438241e97a3e496e85a%3A2%3A%7Bi%3A0%3Bs%3A19%3A%22_identity-sdailover%22%3Bi%3A1%3Bs%3A25%3A%22%5B%22100%22%2C%22demo100%22%2C2592000%5D%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'REQUEST_TIME_FLOAT' => 1709530764.355
+    'REQUEST_TIME' => 1709530764
+]
+2024-03-04 12:39:24 [::1][-][-][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: Unable to determine the path info of the current request. in /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Request.php:989
+Stack trace:
+#0 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Request.php(930): yii\web\Request->resolvePathInfo()
+#1 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/UrlRule.php(390): yii\web\Request->getPathInfo()
+#2 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/UrlManager.php(325): yii\web\UrlRule->parseRequest()
+#3 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Request.php(287): yii\web\UrlManager->parseRequest()
+#4 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Application.php(82): yii\web\Request->resolve()
+#5 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#6 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/web/index.php(26): yii\base\Application->run()
+#7 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/api/index.php(17): require_once('...')
+#8 {main}
+2024-03-04 12:39:24 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_session-sdailover' => 'tfrklpq8su6onn20hu033k98s6'
+    '_csrf-sdailover' => '7d9ac145a81057dc261345c033ffa5036770992a5c6e04313f28979ed231aae7a:2:{i:0;s:15:\"_csrf-sdailover\";i:1;s:32:\"s-LzCpUPj0LMDS3j0V29dwzEmEWXHJh2\";}'
+    '_identity-sdailover' => '9b3940f717ebc52c1344d1a723b4be6d9970b4c43a56a2438241e97a3e496e85a:2:{i:0;s:19:\"_identity-sdailover\";i:1;s:25:\"[\"100\",\"demo100\",2592000]\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '45542'
+    'SERVER_SOFTWARE' => 'PHP 8.2.16 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8000'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/'
+    'SCRIPT_FILENAME' => 'api/index.php'
+    'PHP_SELF' => '/'
+    'HTTP_HOST' => 'localhost:8000'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_session-sdailover=tfrklpq8su6onn20hu033k98s6; _csrf-sdailover=7d9ac145a81057dc261345c033ffa5036770992a5c6e04313f28979ed231aae7a%3A2%3A%7Bi%3A0%3Bs%3A15%3A%22_csrf-sdailover%22%3Bi%3A1%3Bs%3A32%3A%22s-LzCpUPj0LMDS3j0V29dwzEmEWXHJh2%22%3B%7D; _identity-sdailover=9b3940f717ebc52c1344d1a723b4be6d9970b4c43a56a2438241e97a3e496e85a%3A2%3A%7Bi%3A0%3Bs%3A19%3A%22_identity-sdailover%22%3Bi%3A1%3Bs%3A25%3A%22%5B%22100%22%2C%22demo100%22%2C2592000%5D%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'REQUEST_TIME_FLOAT' => 1709530764.5487
+    'REQUEST_TIME' => 1709530764
+]
+2024-03-04 12:39:24 [::1][-][-][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: Unable to determine the path info of the current request. in /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Request.php:989
+Stack trace:
+#0 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Request.php(930): yii\web\Request->resolvePathInfo()
+#1 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/UrlRule.php(390): yii\web\Request->getPathInfo()
+#2 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/UrlManager.php(325): yii\web\UrlRule->parseRequest()
+#3 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Request.php(287): yii\web\UrlManager->parseRequest()
+#4 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Application.php(82): yii\web\Request->resolve()
+#5 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#6 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/web/index.php(26): yii\base\Application->run()
+#7 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/api/index.php(17): require_once('...')
+#8 {main}
+2024-03-04 12:39:24 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_session-sdailover' => 'tfrklpq8su6onn20hu033k98s6'
+    '_csrf-sdailover' => '7d9ac145a81057dc261345c033ffa5036770992a5c6e04313f28979ed231aae7a:2:{i:0;s:15:\"_csrf-sdailover\";i:1;s:32:\"s-LzCpUPj0LMDS3j0V29dwzEmEWXHJh2\";}'
+    '_identity-sdailover' => '9b3940f717ebc52c1344d1a723b4be6d9970b4c43a56a2438241e97a3e496e85a:2:{i:0;s:19:\"_identity-sdailover\";i:1;s:25:\"[\"100\",\"demo100\",2592000]\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '45548'
+    'SERVER_SOFTWARE' => 'PHP 8.2.16 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8000'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/'
+    'SCRIPT_FILENAME' => 'api/index.php'
+    'PHP_SELF' => '/'
+    'HTTP_HOST' => 'localhost:8000'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_session-sdailover=tfrklpq8su6onn20hu033k98s6; _csrf-sdailover=7d9ac145a81057dc261345c033ffa5036770992a5c6e04313f28979ed231aae7a%3A2%3A%7Bi%3A0%3Bs%3A15%3A%22_csrf-sdailover%22%3Bi%3A1%3Bs%3A32%3A%22s-LzCpUPj0LMDS3j0V29dwzEmEWXHJh2%22%3B%7D; _identity-sdailover=9b3940f717ebc52c1344d1a723b4be6d9970b4c43a56a2438241e97a3e496e85a%3A2%3A%7Bi%3A0%3Bs%3A19%3A%22_identity-sdailover%22%3Bi%3A1%3Bs%3A25%3A%22%5B%22100%22%2C%22demo100%22%2C2592000%5D%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'REQUEST_TIME_FLOAT' => 1709530764.7226
+    'REQUEST_TIME' => 1709530764
+]
+2024-03-04 12:39:33 [::1][-][-][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: Unable to determine the path info of the current request. in /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Request.php:989
+Stack trace:
+#0 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Request.php(930): yii\web\Request->resolvePathInfo()
+#1 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/UrlRule.php(390): yii\web\Request->getPathInfo()
+#2 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/UrlManager.php(325): yii\web\UrlRule->parseRequest()
+#3 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Request.php(287): yii\web\UrlManager->parseRequest()
+#4 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Application.php(82): yii\web\Request->resolve()
+#5 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#6 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/web/index.php(26): yii\base\Application->run()
+#7 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/api/index.php(17): require_once('...')
+#8 {main}
+2024-03-04 12:39:33 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_session-sdailover' => 'tfrklpq8su6onn20hu033k98s6'
+    '_csrf-sdailover' => '7d9ac145a81057dc261345c033ffa5036770992a5c6e04313f28979ed231aae7a:2:{i:0;s:15:\"_csrf-sdailover\";i:1;s:32:\"s-LzCpUPj0LMDS3j0V29dwzEmEWXHJh2\";}'
+    '_identity-sdailover' => '9b3940f717ebc52c1344d1a723b4be6d9970b4c43a56a2438241e97a3e496e85a:2:{i:0;s:19:\"_identity-sdailover\";i:1;s:25:\"[\"100\",\"demo100\",2592000]\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '48722'
+    'SERVER_SOFTWARE' => 'PHP 8.2.16 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8000'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/'
+    'SCRIPT_FILENAME' => 'api/index.php'
+    'PHP_SELF' => '/'
+    'HTTP_HOST' => 'localhost:8000'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_session-sdailover=tfrklpq8su6onn20hu033k98s6; _csrf-sdailover=7d9ac145a81057dc261345c033ffa5036770992a5c6e04313f28979ed231aae7a%3A2%3A%7Bi%3A0%3Bs%3A15%3A%22_csrf-sdailover%22%3Bi%3A1%3Bs%3A32%3A%22s-LzCpUPj0LMDS3j0V29dwzEmEWXHJh2%22%3B%7D; _identity-sdailover=9b3940f717ebc52c1344d1a723b4be6d9970b4c43a56a2438241e97a3e496e85a%3A2%3A%7Bi%3A0%3Bs%3A19%3A%22_identity-sdailover%22%3Bi%3A1%3Bs%3A25%3A%22%5B%22100%22%2C%22demo100%22%2C2592000%5D%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'REQUEST_TIME_FLOAT' => 1709530773.395
+    'REQUEST_TIME' => 1709530773
+]
+2024-03-04 12:44:21 [::1][100][q7q5n0n1nv8sadh4bglrls2qo0][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: The directory does not exist:  in /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/AssetManager.php:238
+Stack trace:
+#0 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/AssetManager.php(555): yii\web\AssetManager->checkBasePathPermission()
+#1 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/AssetManager.php(487): yii\web\AssetManager->publishDirectory()
+#2 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/AssetBundle.php(181): yii\web\AssetManager->publish()
+#3 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/AssetManager.php(294): yii\web\AssetBundle->publish()
+#4 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/AssetManager.php(265): yii\web\AssetManager->loadBundle()
+#5 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/View.php(296): yii\web\AssetManager->getBundle()
+#6 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/View.php(301): yii\web\View->registerAssetBundle()
+#7 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/AssetBundle.php(125): yii\web\View->registerAssetBundle()
+#8 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/views/layouts/main.php(24): yii\web\AssetBundle::register()
+#9 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/View.php(347): require('...')
+#10 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile()
+#11 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Controller.php(422): yii\base\View->renderFile()
+#12 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Controller.php(408): yii\base\Controller->renderContent()
+#13 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/controllers/SDSiteController.php(58): yii\base\Controller->render()
+#14 [internal function]: sdailover\controllers\SDSiteController->actionDashboard()
+#15 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#16 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams()
+#17 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction()
+#18 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#19 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#20 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/web/index.php(26): yii\base\Application->run()
+#21 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/api/index.php(17): require_once('...')
+#22 {main}
+2024-03-04 12:44:21 [::1][100][q7q5n0n1nv8sadh4bglrls2qo0][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_session-sdailover' => 'tfrklpq8su6onn20hu033k98s6'
+    '_csrf-sdailover' => '7d9ac145a81057dc261345c033ffa5036770992a5c6e04313f28979ed231aae7a:2:{i:0;s:15:\"_csrf-sdailover\";i:1;s:32:\"s-LzCpUPj0LMDS3j0V29dwzEmEWXHJh2\";}'
+    '_identity-sdailover' => '9b3940f717ebc52c1344d1a723b4be6d9970b4c43a56a2438241e97a3e496e85a:2:{i:0;s:19:\"_identity-sdailover\";i:1;s:25:\"[\"100\",\"demo100\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'dbEctor:sdailover' => [
+        'SDUser' => sdailover\yii\phpsessconnector\SDDataRecord#1
+        (
+            [modelClass] => 'sdailover\\models\\SDUser'
+            [primaryKey] => [
+                'id' => [
+                    0 => '100'
+                    1 => '101'
+                ]
+            ]
+            [foreignKeys] => []
+            [uniques] => []
+            [checks] => []
+            [columns] => [
+                100 => [
+                    'id' => '100'
+                    'email' => 'demo@localhost.com'
+                    'fullname' => 'Demo User'
+                    'username' => 'demo'
+                    'password' => 'demo'
+                    'newpassword' => null
+                    'authKey' => 'demo100'
+                    'accessToken' => '100-token'
+                    'createdate' => '2020-12-01'
+                    'status' => '1'
+                ]
+                101 => [
+                    'id' => '101'
+                    'email' => 'admin@localhost.com'
+                    'fullname' => 'Administrator'
+                    'username' => 'admin'
+                    'password' => 'admin'
+                    'newpassword' => null
+                    'authKey' => 'admin101'
+                    'accessToken' => '101-token'
+                    'createdate' => '2020-12-27'
+                    'status' => '0'
+                ]
+            ]
+            [_schemas] => [
+                'modelClass' => 'sdailover\\models\\SDUser'
+            ]
+        )
+    ]
+    '__id' => '100'
+    '__authKey' => 'demo100'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '46952'
+    'SERVER_SOFTWARE' => 'PHP 8.2.16 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8000'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/'
+    'SCRIPT_FILENAME' => 'api/index.php'
+    'PHP_SELF' => '/'
+    'HTTP_HOST' => 'localhost:8000'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_session-sdailover=tfrklpq8su6onn20hu033k98s6; _csrf-sdailover=7d9ac145a81057dc261345c033ffa5036770992a5c6e04313f28979ed231aae7a%3A2%3A%7Bi%3A0%3Bs%3A15%3A%22_csrf-sdailover%22%3Bi%3A1%3Bs%3A32%3A%22s-LzCpUPj0LMDS3j0V29dwzEmEWXHJh2%22%3B%7D; _identity-sdailover=9b3940f717ebc52c1344d1a723b4be6d9970b4c43a56a2438241e97a3e496e85a%3A2%3A%7Bi%3A0%3Bs%3A19%3A%22_identity-sdailover%22%3Bi%3A1%3Bs%3A25%3A%22%5B%22100%22%2C%22demo100%22%2C2592000%5D%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'REQUEST_TIME_FLOAT' => 1709531061.1382
+    'REQUEST_TIME' => 1709531061
+]
+2024-03-04 13:02:16 [::1][-][-][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Setting unknown property: yii\web\UrlManager::urlFormat in /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Component.php:209
+Stack trace:
+#0 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/BaseYii.php(558): yii\base\Component->__set()
+#1 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/BaseObject.php(107): yii\BaseYii::configure()
+#2 [internal function]: yii\base\BaseObject->__construct()
+#3 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/di/Container.php(419): ReflectionClass->newInstanceArgs()
+#4 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/di/Container.php(170): yii\di\Container->build()
+#5 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/BaseYii.php(365): yii\di\Container->get()
+#6 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/di/ServiceLocator.php(137): yii\BaseYii::createObject()
+#7 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Module.php(766): yii\di\ServiceLocator->get()
+#8 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Application.php(569): yii\base\Module->get()
+#9 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Request.php(287): yii\base\Application->getUrlManager()
+#10 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Application.php(82): yii\web\Request->resolve()
+#11 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#12 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/web/index.php(26): yii\base\Application->run()
+#13 {main}
+2024-03-04 13:02:16 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_session-sdailover' => '40q70qbke4mcnatrpb8aaor28a'
+    '_csrf-sdailover' => '7d9ac145a81057dc261345c033ffa5036770992a5c6e04313f28979ed231aae7a:2:{i:0;s:15:\"_csrf-sdailover\";i:1;s:32:\"s-LzCpUPj0LMDS3j0V29dwzEmEWXHJh2\";}'
+    '_identity-sdailover' => '9b3940f717ebc52c1344d1a723b4be6d9970b4c43a56a2438241e97a3e496e85a:2:{i:0;s:19:\"_identity-sdailover\";i:1;s:25:\"[\"100\",\"demo100\",2592000]\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '43894'
+    'SERVER_SOFTWARE' => 'PHP 8.2.16 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8000'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/'
+    'SCRIPT_FILENAME' => 'web/index.php'
+    'PHP_SELF' => '/'
+    'HTTP_HOST' => 'localhost:8000'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_session-sdailover=40q70qbke4mcnatrpb8aaor28a; _csrf-sdailover=7d9ac145a81057dc261345c033ffa5036770992a5c6e04313f28979ed231aae7a%3A2%3A%7Bi%3A0%3Bs%3A15%3A%22_csrf-sdailover%22%3Bi%3A1%3Bs%3A32%3A%22s-LzCpUPj0LMDS3j0V29dwzEmEWXHJh2%22%3B%7D; _identity-sdailover=9b3940f717ebc52c1344d1a723b4be6d9970b4c43a56a2438241e97a3e496e85a%3A2%3A%7Bi%3A0%3Bs%3A19%3A%22_identity-sdailover%22%3Bi%3A1%3Bs%3A25%3A%22%5B%22100%22%2C%22demo100%22%2C2592000%5D%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'REQUEST_TIME_FLOAT' => 1709532136.3483
+    'REQUEST_TIME' => 1709532136
+]
+2024-03-04 13:05:53 [::1][100][0id5mvp2tk22fa45g6g4rg4leb][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: The directory does not exist:  in /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/AssetManager.php:238
+Stack trace:
+#0 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/AssetManager.php(555): yii\web\AssetManager->checkBasePathPermission()
+#1 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/AssetManager.php(487): yii\web\AssetManager->publishDirectory()
+#2 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/AssetBundle.php(181): yii\web\AssetManager->publish()
+#3 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/AssetManager.php(294): yii\web\AssetBundle->publish()
+#4 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/AssetManager.php(265): yii\web\AssetManager->loadBundle()
+#5 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/View.php(296): yii\web\AssetManager->getBundle()
+#6 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/View.php(301): yii\web\View->registerAssetBundle()
+#7 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/AssetBundle.php(125): yii\web\View->registerAssetBundle()
+#8 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/views/layouts/main.php(24): yii\web\AssetBundle::register()
+#9 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/View.php(347): require('...')
+#10 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile()
+#11 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Controller.php(422): yii\base\View->renderFile()
+#12 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Controller.php(408): yii\base\Controller->renderContent()
+#13 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/controllers/SDSiteController.php(58): yii\base\Controller->render()
+#14 [internal function]: sdailover\controllers\SDSiteController->actionDashboard()
+#15 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#16 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams()
+#17 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction()
+#18 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#19 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#20 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/web/index.php(26): yii\base\Application->run()
+#21 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/api/index.php(17): require_once('...')
+#22 {main}
+2024-03-04 13:05:53 [::1][100][0id5mvp2tk22fa45g6g4rg4leb][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_session-sdailover' => '0id5mvp2tk22fa45g6g4rg4leb'
+    '_csrf-sdailover' => '7d9ac145a81057dc261345c033ffa5036770992a5c6e04313f28979ed231aae7a:2:{i:0;s:15:\"_csrf-sdailover\";i:1;s:32:\"s-LzCpUPj0LMDS3j0V29dwzEmEWXHJh2\";}'
+    '_identity-sdailover' => '9b3940f717ebc52c1344d1a723b4be6d9970b4c43a56a2438241e97a3e496e85a:2:{i:0;s:19:\"_identity-sdailover\";i:1;s:25:\"[\"100\",\"demo100\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'dbEctor:sdailover' => [
+        'SDUser' => sdailover\yii\phpsessconnector\SDDataRecord#1
+        (
+            [modelClass] => 'sdailover\\models\\SDUser'
+            [primaryKey] => [
+                'id' => [
+                    0 => '100'
+                    1 => '101'
+                ]
+            ]
+            [foreignKeys] => []
+            [uniques] => []
+            [checks] => []
+            [columns] => [
+                100 => [
+                    'id' => '100'
+                    'email' => 'demo@localhost.com'
+                    'fullname' => 'Demo User'
+                    'username' => 'demo'
+                    'password' => 'demo'
+                    'newpassword' => null
+                    'authKey' => 'demo100'
+                    'accessToken' => '100-token'
+                    'createdate' => '2020-12-01'
+                    'status' => '1'
+                ]
+                101 => [
+                    'id' => '101'
+                    'email' => 'admin@localhost.com'
+                    'fullname' => 'Administrator'
+                    'username' => 'admin'
+                    'password' => 'admin'
+                    'newpassword' => null
+                    'authKey' => 'admin101'
+                    'accessToken' => '101-token'
+                    'createdate' => '2020-12-27'
+                    'status' => '0'
+                ]
+            ]
+            [_schemas] => [
+                'modelClass' => 'sdailover\\models\\SDUser'
+            ]
+        )
+    ]
+    '__id' => '100'
+    '__authKey' => 'demo100'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60348'
+    'SERVER_SOFTWARE' => 'PHP 8.2.16 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8000'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/'
+    'SCRIPT_FILENAME' => 'api/index.php'
+    'PHP_SELF' => '/'
+    'HTTP_HOST' => 'localhost:8000'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_session-sdailover=0id5mvp2tk22fa45g6g4rg4leb; _csrf-sdailover=7d9ac145a81057dc261345c033ffa5036770992a5c6e04313f28979ed231aae7a%3A2%3A%7Bi%3A0%3Bs%3A15%3A%22_csrf-sdailover%22%3Bi%3A1%3Bs%3A32%3A%22s-LzCpUPj0LMDS3j0V29dwzEmEWXHJh2%22%3B%7D; _identity-sdailover=9b3940f717ebc52c1344d1a723b4be6d9970b4c43a56a2438241e97a3e496e85a%3A2%3A%7Bi%3A0%3Bs%3A19%3A%22_identity-sdailover%22%3Bi%3A1%3Bs%3A25%3A%22%5B%22100%22%2C%22demo100%22%2C2592000%5D%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'REQUEST_TIME_FLOAT' => 1709532353.0191
+    'REQUEST_TIME' => 1709532353
+]
+2024-03-04 13:05:54 [::1][100][0id5mvp2tk22fa45g6g4rg4leb][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: The directory does not exist:  in /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/AssetManager.php:238
+Stack trace:
+#0 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/AssetManager.php(555): yii\web\AssetManager->checkBasePathPermission()
+#1 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/AssetManager.php(487): yii\web\AssetManager->publishDirectory()
+#2 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/AssetBundle.php(181): yii\web\AssetManager->publish()
+#3 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/AssetManager.php(294): yii\web\AssetBundle->publish()
+#4 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/AssetManager.php(265): yii\web\AssetManager->loadBundle()
+#5 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/View.php(296): yii\web\AssetManager->getBundle()
+#6 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/View.php(301): yii\web\View->registerAssetBundle()
+#7 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/AssetBundle.php(125): yii\web\View->registerAssetBundle()
+#8 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/views/layouts/main.php(24): yii\web\AssetBundle::register()
+#9 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/View.php(347): require('...')
+#10 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile()
+#11 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Controller.php(422): yii\base\View->renderFile()
+#12 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Controller.php(408): yii\base\Controller->renderContent()
+#13 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/controllers/SDSiteController.php(58): yii\base\Controller->render()
+#14 [internal function]: sdailover\controllers\SDSiteController->actionDashboard()
+#15 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#16 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams()
+#17 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction()
+#18 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#19 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#20 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/web/index.php(26): yii\base\Application->run()
+#21 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/api/index.php(17): require_once('...')
+#22 {main}
+2024-03-04 13:05:54 [::1][100][0id5mvp2tk22fa45g6g4rg4leb][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_session-sdailover' => '0id5mvp2tk22fa45g6g4rg4leb'
+    '_csrf-sdailover' => '7d9ac145a81057dc261345c033ffa5036770992a5c6e04313f28979ed231aae7a:2:{i:0;s:15:\"_csrf-sdailover\";i:1;s:32:\"s-LzCpUPj0LMDS3j0V29dwzEmEWXHJh2\";}'
+    '_identity-sdailover' => '9b3940f717ebc52c1344d1a723b4be6d9970b4c43a56a2438241e97a3e496e85a:2:{i:0;s:19:\"_identity-sdailover\";i:1;s:25:\"[\"100\",\"demo100\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'dbEctor:sdailover' => [
+        'SDUser' => sdailover\yii\phpsessconnector\SDDataRecord#1
+        (
+            [modelClass] => 'sdailover\\models\\SDUser'
+            [primaryKey] => [
+                'id' => [
+                    0 => '100'
+                    1 => '101'
+                ]
+            ]
+            [foreignKeys] => []
+            [uniques] => []
+            [checks] => []
+            [columns] => [
+                100 => [
+                    'id' => '100'
+                    'email' => 'demo@localhost.com'
+                    'fullname' => 'Demo User'
+                    'username' => 'demo'
+                    'password' => 'demo'
+                    'newpassword' => null
+                    'authKey' => 'demo100'
+                    'accessToken' => '100-token'
+                    'createdate' => '2020-12-01'
+                    'status' => '1'
+                ]
+                101 => [
+                    'id' => '101'
+                    'email' => 'admin@localhost.com'
+                    'fullname' => 'Administrator'
+                    'username' => 'admin'
+                    'password' => 'admin'
+                    'newpassword' => null
+                    'authKey' => 'admin101'
+                    'accessToken' => '101-token'
+                    'createdate' => '2020-12-27'
+                    'status' => '0'
+                ]
+            ]
+            [_schemas] => [
+                'modelClass' => 'sdailover\\models\\SDUser'
+            ]
+        )
+    ]
+    '__id' => '100'
+    '__authKey' => 'demo100'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60364'
+    'SERVER_SOFTWARE' => 'PHP 8.2.16 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8000'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/'
+    'SCRIPT_FILENAME' => 'api/index.php'
+    'PHP_SELF' => '/'
+    'HTTP_HOST' => 'localhost:8000'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_session-sdailover=0id5mvp2tk22fa45g6g4rg4leb; _csrf-sdailover=7d9ac145a81057dc261345c033ffa5036770992a5c6e04313f28979ed231aae7a%3A2%3A%7Bi%3A0%3Bs%3A15%3A%22_csrf-sdailover%22%3Bi%3A1%3Bs%3A32%3A%22s-LzCpUPj0LMDS3j0V29dwzEmEWXHJh2%22%3B%7D; _identity-sdailover=9b3940f717ebc52c1344d1a723b4be6d9970b4c43a56a2438241e97a3e496e85a%3A2%3A%7Bi%3A0%3Bs%3A19%3A%22_identity-sdailover%22%3Bi%3A1%3Bs%3A25%3A%22%5B%22100%22%2C%22demo100%22%2C2592000%5D%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'REQUEST_TIME_FLOAT' => 1709532354.1341
+    'REQUEST_TIME' => 1709532354
+]
+2024-03-04 13:05:54 [::1][100][0id5mvp2tk22fa45g6g4rg4leb][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: The directory does not exist:  in /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/AssetManager.php:238
+Stack trace:
+#0 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/AssetManager.php(555): yii\web\AssetManager->checkBasePathPermission()
+#1 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/AssetManager.php(487): yii\web\AssetManager->publishDirectory()
+#2 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/AssetBundle.php(181): yii\web\AssetManager->publish()
+#3 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/AssetManager.php(294): yii\web\AssetBundle->publish()
+#4 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/AssetManager.php(265): yii\web\AssetManager->loadBundle()
+#5 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/View.php(296): yii\web\AssetManager->getBundle()
+#6 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/View.php(301): yii\web\View->registerAssetBundle()
+#7 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/AssetBundle.php(125): yii\web\View->registerAssetBundle()
+#8 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/views/layouts/main.php(24): yii\web\AssetBundle::register()
+#9 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/View.php(347): require('...')
+#10 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile()
+#11 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Controller.php(422): yii\base\View->renderFile()
+#12 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Controller.php(408): yii\base\Controller->renderContent()
+#13 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/controllers/SDSiteController.php(58): yii\base\Controller->render()
+#14 [internal function]: sdailover\controllers\SDSiteController->actionDashboard()
+#15 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#16 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams()
+#17 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction()
+#18 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#19 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#20 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/web/index.php(26): yii\base\Application->run()
+#21 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/api/index.php(17): require_once('...')
+#22 {main}
+2024-03-04 13:05:54 [::1][100][0id5mvp2tk22fa45g6g4rg4leb][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_session-sdailover' => '0id5mvp2tk22fa45g6g4rg4leb'
+    '_csrf-sdailover' => '7d9ac145a81057dc261345c033ffa5036770992a5c6e04313f28979ed231aae7a:2:{i:0;s:15:\"_csrf-sdailover\";i:1;s:32:\"s-LzCpUPj0LMDS3j0V29dwzEmEWXHJh2\";}'
+    '_identity-sdailover' => '9b3940f717ebc52c1344d1a723b4be6d9970b4c43a56a2438241e97a3e496e85a:2:{i:0;s:19:\"_identity-sdailover\";i:1;s:25:\"[\"100\",\"demo100\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'dbEctor:sdailover' => [
+        'SDUser' => sdailover\yii\phpsessconnector\SDDataRecord#1
+        (
+            [modelClass] => 'sdailover\\models\\SDUser'
+            [primaryKey] => [
+                'id' => [
+                    0 => '100'
+                    1 => '101'
+                ]
+            ]
+            [foreignKeys] => []
+            [uniques] => []
+            [checks] => []
+            [columns] => [
+                100 => [
+                    'id' => '100'
+                    'email' => 'demo@localhost.com'
+                    'fullname' => 'Demo User'
+                    'username' => 'demo'
+                    'password' => 'demo'
+                    'newpassword' => null
+                    'authKey' => 'demo100'
+                    'accessToken' => '100-token'
+                    'createdate' => '2020-12-01'
+                    'status' => '1'
+                ]
+                101 => [
+                    'id' => '101'
+                    'email' => 'admin@localhost.com'
+                    'fullname' => 'Administrator'
+                    'username' => 'admin'
+                    'password' => 'admin'
+                    'newpassword' => null
+                    'authKey' => 'admin101'
+                    'accessToken' => '101-token'
+                    'createdate' => '2020-12-27'
+                    'status' => '0'
+                ]
+            ]
+            [_schemas] => [
+                'modelClass' => 'sdailover\\models\\SDUser'
+            ]
+        )
+    ]
+    '__id' => '100'
+    '__authKey' => 'demo100'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60376'
+    'SERVER_SOFTWARE' => 'PHP 8.2.16 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8000'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/'
+    'SCRIPT_FILENAME' => 'api/index.php'
+    'PHP_SELF' => '/'
+    'HTTP_HOST' => 'localhost:8000'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_session-sdailover=0id5mvp2tk22fa45g6g4rg4leb; _csrf-sdailover=7d9ac145a81057dc261345c033ffa5036770992a5c6e04313f28979ed231aae7a%3A2%3A%7Bi%3A0%3Bs%3A15%3A%22_csrf-sdailover%22%3Bi%3A1%3Bs%3A32%3A%22s-LzCpUPj0LMDS3j0V29dwzEmEWXHJh2%22%3B%7D; _identity-sdailover=9b3940f717ebc52c1344d1a723b4be6d9970b4c43a56a2438241e97a3e496e85a%3A2%3A%7Bi%3A0%3Bs%3A19%3A%22_identity-sdailover%22%3Bi%3A1%3Bs%3A25%3A%22%5B%22100%22%2C%22demo100%22%2C2592000%5D%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'REQUEST_TIME_FLOAT' => 1709532354.7645
+    'REQUEST_TIME' => 1709532354
+]
+2024-03-04 13:05:55 [::1][100][0id5mvp2tk22fa45g6g4rg4leb][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: The directory does not exist:  in /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/AssetManager.php:238
+Stack trace:
+#0 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/AssetManager.php(555): yii\web\AssetManager->checkBasePathPermission()
+#1 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/AssetManager.php(487): yii\web\AssetManager->publishDirectory()
+#2 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/AssetBundle.php(181): yii\web\AssetManager->publish()
+#3 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/AssetManager.php(294): yii\web\AssetBundle->publish()
+#4 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/AssetManager.php(265): yii\web\AssetManager->loadBundle()
+#5 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/View.php(296): yii\web\AssetManager->getBundle()
+#6 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/View.php(301): yii\web\View->registerAssetBundle()
+#7 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/AssetBundle.php(125): yii\web\View->registerAssetBundle()
+#8 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/views/layouts/main.php(24): yii\web\AssetBundle::register()
+#9 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/View.php(347): require('...')
+#10 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile()
+#11 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Controller.php(422): yii\base\View->renderFile()
+#12 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Controller.php(408): yii\base\Controller->renderContent()
+#13 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/controllers/SDSiteController.php(58): yii\base\Controller->render()
+#14 [internal function]: sdailover\controllers\SDSiteController->actionDashboard()
+#15 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#16 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams()
+#17 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction()
+#18 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#19 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#20 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/web/index.php(26): yii\base\Application->run()
+#21 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/api/index.php(17): require_once('...')
+#22 {main}
+2024-03-04 13:05:55 [::1][100][0id5mvp2tk22fa45g6g4rg4leb][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_session-sdailover' => '0id5mvp2tk22fa45g6g4rg4leb'
+    '_csrf-sdailover' => '7d9ac145a81057dc261345c033ffa5036770992a5c6e04313f28979ed231aae7a:2:{i:0;s:15:\"_csrf-sdailover\";i:1;s:32:\"s-LzCpUPj0LMDS3j0V29dwzEmEWXHJh2\";}'
+    '_identity-sdailover' => '9b3940f717ebc52c1344d1a723b4be6d9970b4c43a56a2438241e97a3e496e85a:2:{i:0;s:19:\"_identity-sdailover\";i:1;s:25:\"[\"100\",\"demo100\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'dbEctor:sdailover' => [
+        'SDUser' => sdailover\yii\phpsessconnector\SDDataRecord#1
+        (
+            [modelClass] => 'sdailover\\models\\SDUser'
+            [primaryKey] => [
+                'id' => [
+                    0 => '100'
+                    1 => '101'
+                ]
+            ]
+            [foreignKeys] => []
+            [uniques] => []
+            [checks] => []
+            [columns] => [
+                100 => [
+                    'id' => '100'
+                    'email' => 'demo@localhost.com'
+                    'fullname' => 'Demo User'
+                    'username' => 'demo'
+                    'password' => 'demo'
+                    'newpassword' => null
+                    'authKey' => 'demo100'
+                    'accessToken' => '100-token'
+                    'createdate' => '2020-12-01'
+                    'status' => '1'
+                ]
+                101 => [
+                    'id' => '101'
+                    'email' => 'admin@localhost.com'
+                    'fullname' => 'Administrator'
+                    'username' => 'admin'
+                    'password' => 'admin'
+                    'newpassword' => null
+                    'authKey' => 'admin101'
+                    'accessToken' => '101-token'
+                    'createdate' => '2020-12-27'
+                    'status' => '0'
+                ]
+            ]
+            [_schemas] => [
+                'modelClass' => 'sdailover\\models\\SDUser'
+            ]
+        )
+    ]
+    '__id' => '100'
+    '__authKey' => 'demo100'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60392'
+    'SERVER_SOFTWARE' => 'PHP 8.2.16 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8000'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/'
+    'SCRIPT_FILENAME' => 'api/index.php'
+    'PHP_SELF' => '/'
+    'HTTP_HOST' => 'localhost:8000'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_session-sdailover=0id5mvp2tk22fa45g6g4rg4leb; _csrf-sdailover=7d9ac145a81057dc261345c033ffa5036770992a5c6e04313f28979ed231aae7a%3A2%3A%7Bi%3A0%3Bs%3A15%3A%22_csrf-sdailover%22%3Bi%3A1%3Bs%3A32%3A%22s-LzCpUPj0LMDS3j0V29dwzEmEWXHJh2%22%3B%7D; _identity-sdailover=9b3940f717ebc52c1344d1a723b4be6d9970b4c43a56a2438241e97a3e496e85a%3A2%3A%7Bi%3A0%3Bs%3A19%3A%22_identity-sdailover%22%3Bi%3A1%3Bs%3A25%3A%22%5B%22100%22%2C%22demo100%22%2C2592000%5D%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'REQUEST_TIME_FLOAT' => 1709532355.1314
+    'REQUEST_TIME' => 1709532355
+]
+2024-03-04 13:05:55 [::1][100][0id5mvp2tk22fa45g6g4rg4leb][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: The directory does not exist:  in /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/AssetManager.php:238
+Stack trace:
+#0 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/AssetManager.php(555): yii\web\AssetManager->checkBasePathPermission()
+#1 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/AssetManager.php(487): yii\web\AssetManager->publishDirectory()
+#2 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/AssetBundle.php(181): yii\web\AssetManager->publish()
+#3 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/AssetManager.php(294): yii\web\AssetBundle->publish()
+#4 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/AssetManager.php(265): yii\web\AssetManager->loadBundle()
+#5 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/View.php(296): yii\web\AssetManager->getBundle()
+#6 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/View.php(301): yii\web\View->registerAssetBundle()
+#7 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/AssetBundle.php(125): yii\web\View->registerAssetBundle()
+#8 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/views/layouts/main.php(24): yii\web\AssetBundle::register()
+#9 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/View.php(347): require('...')
+#10 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile()
+#11 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Controller.php(422): yii\base\View->renderFile()
+#12 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Controller.php(408): yii\base\Controller->renderContent()
+#13 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/controllers/SDSiteController.php(58): yii\base\Controller->render()
+#14 [internal function]: sdailover\controllers\SDSiteController->actionDashboard()
+#15 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#16 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams()
+#17 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction()
+#18 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#19 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#20 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/web/index.php(26): yii\base\Application->run()
+#21 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/api/index.php(17): require_once('...')
+#22 {main}
+2024-03-04 13:05:55 [::1][100][0id5mvp2tk22fa45g6g4rg4leb][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_session-sdailover' => '0id5mvp2tk22fa45g6g4rg4leb'
+    '_csrf-sdailover' => '7d9ac145a81057dc261345c033ffa5036770992a5c6e04313f28979ed231aae7a:2:{i:0;s:15:\"_csrf-sdailover\";i:1;s:32:\"s-LzCpUPj0LMDS3j0V29dwzEmEWXHJh2\";}'
+    '_identity-sdailover' => '9b3940f717ebc52c1344d1a723b4be6d9970b4c43a56a2438241e97a3e496e85a:2:{i:0;s:19:\"_identity-sdailover\";i:1;s:25:\"[\"100\",\"demo100\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'dbEctor:sdailover' => [
+        'SDUser' => sdailover\yii\phpsessconnector\SDDataRecord#1
+        (
+            [modelClass] => 'sdailover\\models\\SDUser'
+            [primaryKey] => [
+                'id' => [
+                    0 => '100'
+                    1 => '101'
+                ]
+            ]
+            [foreignKeys] => []
+            [uniques] => []
+            [checks] => []
+            [columns] => [
+                100 => [
+                    'id' => '100'
+                    'email' => 'demo@localhost.com'
+                    'fullname' => 'Demo User'
+                    'username' => 'demo'
+                    'password' => 'demo'
+                    'newpassword' => null
+                    'authKey' => 'demo100'
+                    'accessToken' => '100-token'
+                    'createdate' => '2020-12-01'
+                    'status' => '1'
+                ]
+                101 => [
+                    'id' => '101'
+                    'email' => 'admin@localhost.com'
+                    'fullname' => 'Administrator'
+                    'username' => 'admin'
+                    'password' => 'admin'
+                    'newpassword' => null
+                    'authKey' => 'admin101'
+                    'accessToken' => '101-token'
+                    'createdate' => '2020-12-27'
+                    'status' => '0'
+                ]
+            ]
+            [_schemas] => [
+                'modelClass' => 'sdailover\\models\\SDUser'
+            ]
+        )
+    ]
+    '__id' => '100'
+    '__authKey' => 'demo100'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60398'
+    'SERVER_SOFTWARE' => 'PHP 8.2.16 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8000'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/'
+    'SCRIPT_FILENAME' => 'api/index.php'
+    'PHP_SELF' => '/'
+    'HTTP_HOST' => 'localhost:8000'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_session-sdailover=0id5mvp2tk22fa45g6g4rg4leb; _csrf-sdailover=7d9ac145a81057dc261345c033ffa5036770992a5c6e04313f28979ed231aae7a%3A2%3A%7Bi%3A0%3Bs%3A15%3A%22_csrf-sdailover%22%3Bi%3A1%3Bs%3A32%3A%22s-LzCpUPj0LMDS3j0V29dwzEmEWXHJh2%22%3B%7D; _identity-sdailover=9b3940f717ebc52c1344d1a723b4be6d9970b4c43a56a2438241e97a3e496e85a%3A2%3A%7Bi%3A0%3Bs%3A19%3A%22_identity-sdailover%22%3Bi%3A1%3Bs%3A25%3A%22%5B%22100%22%2C%22demo100%22%2C2592000%5D%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'REQUEST_TIME_FLOAT' => 1709532355.3358
+    'REQUEST_TIME' => 1709532355
+]
+2024-03-04 13:10:23 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "themes/images/sdailover-header.png". in /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Module.php:561
+Stack trace:
+#0 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#1 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#2 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/web/index.php(26): yii\base\Application->run()
+#3 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/api/index.php(17): require_once('...')
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#1 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/web/index.php(26): yii\base\Application->run()
+#2 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/api/index.php(17): require_once('...')
+#3 {main}
+2024-03-04 13:10:23 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_session-sdailover' => '0id5mvp2tk22fa45g6g4rg4leb'
+    '_csrf-sdailover' => '7d9ac145a81057dc261345c033ffa5036770992a5c6e04313f28979ed231aae7a:2:{i:0;s:15:\"_csrf-sdailover\";i:1;s:32:\"s-LzCpUPj0LMDS3j0V29dwzEmEWXHJh2\";}'
+    '_identity-sdailover' => '9b3940f717ebc52c1344d1a723b4be6d9970b4c43a56a2438241e97a3e496e85a:2:{i:0;s:19:\"_identity-sdailover\";i:1;s:25:\"[\"100\",\"demo100\",2592000]\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '42144'
+    'SERVER_SOFTWARE' => 'PHP 8.2.16 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8000'
+    'REQUEST_URI' => '/themes/images/sdailover-header.png'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/themes/images/sdailover-header.png'
+    'SCRIPT_FILENAME' => 'api/index.php'
+    'PHP_SELF' => '/themes/images/sdailover-header.png'
+    'HTTP_HOST' => 'localhost:8000'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://localhost:8000/'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_session-sdailover=0id5mvp2tk22fa45g6g4rg4leb; _csrf-sdailover=7d9ac145a81057dc261345c033ffa5036770992a5c6e04313f28979ed231aae7a%3A2%3A%7Bi%3A0%3Bs%3A15%3A%22_csrf-sdailover%22%3Bi%3A1%3Bs%3A32%3A%22s-LzCpUPj0LMDS3j0V29dwzEmEWXHJh2%22%3B%7D; _identity-sdailover=9b3940f717ebc52c1344d1a723b4be6d9970b4c43a56a2438241e97a3e496e85a%3A2%3A%7Bi%3A0%3Bs%3A19%3A%22_identity-sdailover%22%3Bi%3A1%3Bs%3A25%3A%22%5B%22100%22%2C%22demo100%22%2C2592000%5D%22%3B%7D'
+    'HTTP_SEC_FETCH_DEST' => 'image'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'REQUEST_TIME_FLOAT' => 1709532623.5506
+    'REQUEST_TIME' => 1709532623
+]
+2024-03-04 13:10:23 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "themes/images/sdailover-logo.png". in /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Module.php:561
+Stack trace:
+#0 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#1 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#2 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/web/index.php(26): yii\base\Application->run()
+#3 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/api/index.php(17): require_once('...')
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#1 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/web/index.php(26): yii\base\Application->run()
+#2 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/api/index.php(17): require_once('...')
+#3 {main}
+2024-03-04 13:10:23 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_session-sdailover' => '0id5mvp2tk22fa45g6g4rg4leb'
+    '_csrf-sdailover' => '7d9ac145a81057dc261345c033ffa5036770992a5c6e04313f28979ed231aae7a:2:{i:0;s:15:\"_csrf-sdailover\";i:1;s:32:\"s-LzCpUPj0LMDS3j0V29dwzEmEWXHJh2\";}'
+    '_identity-sdailover' => '9b3940f717ebc52c1344d1a723b4be6d9970b4c43a56a2438241e97a3e496e85a:2:{i:0;s:19:\"_identity-sdailover\";i:1;s:25:\"[\"100\",\"demo100\",2592000]\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '42150'
+    'SERVER_SOFTWARE' => 'PHP 8.2.16 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8000'
+    'REQUEST_URI' => '/themes/images/sdailover-logo.png'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/themes/images/sdailover-logo.png'
+    'SCRIPT_FILENAME' => 'api/index.php'
+    'PHP_SELF' => '/themes/images/sdailover-logo.png'
+    'HTTP_HOST' => 'localhost:8000'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://localhost:8000/'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_session-sdailover=0id5mvp2tk22fa45g6g4rg4leb; _csrf-sdailover=7d9ac145a81057dc261345c033ffa5036770992a5c6e04313f28979ed231aae7a%3A2%3A%7Bi%3A0%3Bs%3A15%3A%22_csrf-sdailover%22%3Bi%3A1%3Bs%3A32%3A%22s-LzCpUPj0LMDS3j0V29dwzEmEWXHJh2%22%3B%7D; _identity-sdailover=9b3940f717ebc52c1344d1a723b4be6d9970b4c43a56a2438241e97a3e496e85a%3A2%3A%7Bi%3A0%3Bs%3A19%3A%22_identity-sdailover%22%3Bi%3A1%3Bs%3A25%3A%22%5B%22100%22%2C%22demo100%22%2C2592000%5D%22%3B%7D'
+    'HTTP_SEC_FETCH_DEST' => 'image'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'REQUEST_TIME_FLOAT' => 1709532623.5797
+    'REQUEST_TIME' => 1709532623
+]
+2024-03-04 13:10:23 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/d6988653/jquery.js". in /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Module.php:561
+Stack trace:
+#0 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#1 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#2 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/web/index.php(26): yii\base\Application->run()
+#3 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/api/index.php(17): require_once('...')
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#1 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/web/index.php(26): yii\base\Application->run()
+#2 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/api/index.php(17): require_once('...')
+#3 {main}
+2024-03-04 13:10:23 [::1][-][-][info][application] $_GET = [
+    'v' => '1693229950'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_session-sdailover' => '0id5mvp2tk22fa45g6g4rg4leb'
+    '_csrf-sdailover' => '7d9ac145a81057dc261345c033ffa5036770992a5c6e04313f28979ed231aae7a:2:{i:0;s:15:\"_csrf-sdailover\";i:1;s:32:\"s-LzCpUPj0LMDS3j0V29dwzEmEWXHJh2\";}'
+    '_identity-sdailover' => '9b3940f717ebc52c1344d1a723b4be6d9970b4c43a56a2438241e97a3e496e85a:2:{i:0;s:19:\"_identity-sdailover\";i:1;s:25:\"[\"100\",\"demo100\",2592000]\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '42152'
+    'SERVER_SOFTWARE' => 'PHP 8.2.16 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8000'
+    'REQUEST_URI' => '/assets/d6988653/jquery.js?v=1693229950'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/assets/d6988653/jquery.js'
+    'SCRIPT_FILENAME' => 'api/index.php'
+    'PHP_SELF' => '/assets/d6988653/jquery.js'
+    'QUERY_STRING' => 'v=1693229950'
+    'HTTP_HOST' => 'localhost:8000'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://localhost:8000/'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_session-sdailover=0id5mvp2tk22fa45g6g4rg4leb; _csrf-sdailover=7d9ac145a81057dc261345c033ffa5036770992a5c6e04313f28979ed231aae7a%3A2%3A%7Bi%3A0%3Bs%3A15%3A%22_csrf-sdailover%22%3Bi%3A1%3Bs%3A32%3A%22s-LzCpUPj0LMDS3j0V29dwzEmEWXHJh2%22%3B%7D; _identity-sdailover=9b3940f717ebc52c1344d1a723b4be6d9970b4c43a56a2438241e97a3e496e85a%3A2%3A%7Bi%3A0%3Bs%3A19%3A%22_identity-sdailover%22%3Bi%3A1%3Bs%3A25%3A%22%5B%22100%22%2C%22demo100%22%2C2592000%5D%22%3B%7D'
+    'HTTP_SEC_FETCH_DEST' => 'script'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'REQUEST_TIME_FLOAT' => 1709532623.5833
+    'REQUEST_TIME' => 1709532623
+]
+2024-03-04 13:10:23 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/5571aaee/yii.js". in /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Module.php:561
+Stack trace:
+#0 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#1 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#2 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/web/index.php(26): yii\base\Application->run()
+#3 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/api/index.php(17): require_once('...')
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#1 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/web/index.php(26): yii\base\Application->run()
+#2 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/api/index.php(17): require_once('...')
+#3 {main}
+2024-03-04 13:10:23 [::1][-][-][info][application] $_GET = [
+    'v' => '1698766748'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_session-sdailover' => '0id5mvp2tk22fa45g6g4rg4leb'
+    '_csrf-sdailover' => '7d9ac145a81057dc261345c033ffa5036770992a5c6e04313f28979ed231aae7a:2:{i:0;s:15:\"_csrf-sdailover\";i:1;s:32:\"s-LzCpUPj0LMDS3j0V29dwzEmEWXHJh2\";}'
+    '_identity-sdailover' => '9b3940f717ebc52c1344d1a723b4be6d9970b4c43a56a2438241e97a3e496e85a:2:{i:0;s:19:\"_identity-sdailover\";i:1;s:25:\"[\"100\",\"demo100\",2592000]\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '42160'
+    'SERVER_SOFTWARE' => 'PHP 8.2.16 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8000'
+    'REQUEST_URI' => '/assets/5571aaee/yii.js?v=1698766748'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/assets/5571aaee/yii.js'
+    'SCRIPT_FILENAME' => 'api/index.php'
+    'PHP_SELF' => '/assets/5571aaee/yii.js'
+    'QUERY_STRING' => 'v=1698766748'
+    'HTTP_HOST' => 'localhost:8000'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://localhost:8000/'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_session-sdailover=0id5mvp2tk22fa45g6g4rg4leb; _csrf-sdailover=7d9ac145a81057dc261345c033ffa5036770992a5c6e04313f28979ed231aae7a%3A2%3A%7Bi%3A0%3Bs%3A15%3A%22_csrf-sdailover%22%3Bi%3A1%3Bs%3A32%3A%22s-LzCpUPj0LMDS3j0V29dwzEmEWXHJh2%22%3B%7D; _identity-sdailover=9b3940f717ebc52c1344d1a723b4be6d9970b4c43a56a2438241e97a3e496e85a%3A2%3A%7Bi%3A0%3Bs%3A19%3A%22_identity-sdailover%22%3Bi%3A1%3Bs%3A25%3A%22%5B%22100%22%2C%22demo100%22%2C2592000%5D%22%3B%7D'
+    'HTTP_SEC_FETCH_DEST' => 'script'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'REQUEST_TIME_FLOAT' => 1709532623.587
+    'REQUEST_TIME' => 1709532623
+]
+2024-03-04 13:10:23 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/5571aaee/yii.validation.js". in /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Module.php:561
+Stack trace:
+#0 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#1 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#2 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/web/index.php(26): yii\base\Application->run()
+#3 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/api/index.php(17): require_once('...')
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#1 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/web/index.php(26): yii\base\Application->run()
+#2 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/api/index.php(17): require_once('...')
+#3 {main}
+2024-03-04 13:10:23 [::1][-][-][info][application] $_GET = [
+    'v' => '1698766748'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_session-sdailover' => '0id5mvp2tk22fa45g6g4rg4leb'
+    '_csrf-sdailover' => '7d9ac145a81057dc261345c033ffa5036770992a5c6e04313f28979ed231aae7a:2:{i:0;s:15:\"_csrf-sdailover\";i:1;s:32:\"s-LzCpUPj0LMDS3j0V29dwzEmEWXHJh2\";}'
+    '_identity-sdailover' => '9b3940f717ebc52c1344d1a723b4be6d9970b4c43a56a2438241e97a3e496e85a:2:{i:0;s:19:\"_identity-sdailover\";i:1;s:25:\"[\"100\",\"demo100\",2592000]\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '42170'
+    'SERVER_SOFTWARE' => 'PHP 8.2.16 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8000'
+    'REQUEST_URI' => '/assets/5571aaee/yii.validation.js?v=1698766748'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/assets/5571aaee/yii.validation.js'
+    'SCRIPT_FILENAME' => 'api/index.php'
+    'PHP_SELF' => '/assets/5571aaee/yii.validation.js'
+    'QUERY_STRING' => 'v=1698766748'
+    'HTTP_HOST' => 'localhost:8000'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://localhost:8000/'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_session-sdailover=0id5mvp2tk22fa45g6g4rg4leb; _csrf-sdailover=7d9ac145a81057dc261345c033ffa5036770992a5c6e04313f28979ed231aae7a%3A2%3A%7Bi%3A0%3Bs%3A15%3A%22_csrf-sdailover%22%3Bi%3A1%3Bs%3A32%3A%22s-LzCpUPj0LMDS3j0V29dwzEmEWXHJh2%22%3B%7D; _identity-sdailover=9b3940f717ebc52c1344d1a723b4be6d9970b4c43a56a2438241e97a3e496e85a%3A2%3A%7Bi%3A0%3Bs%3A19%3A%22_identity-sdailover%22%3Bi%3A1%3Bs%3A25%3A%22%5B%22100%22%2C%22demo100%22%2C2592000%5D%22%3B%7D'
+    'HTTP_SEC_FETCH_DEST' => 'script'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'REQUEST_TIME_FLOAT' => 1709532623.5908
+    'REQUEST_TIME' => 1709532623
+]
+2024-03-04 13:10:23 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/5571aaee/yii.activeForm.js". in /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Module.php:561
+Stack trace:
+#0 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#1 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#2 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/web/index.php(26): yii\base\Application->run()
+#3 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/api/index.php(17): require_once('...')
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#1 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/web/index.php(26): yii\base\Application->run()
+#2 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/api/index.php(17): require_once('...')
+#3 {main}
+2024-03-04 13:10:23 [::1][-][-][info][application] $_GET = [
+    'v' => '1698766748'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_session-sdailover' => '0id5mvp2tk22fa45g6g4rg4leb'
+    '_csrf-sdailover' => '7d9ac145a81057dc261345c033ffa5036770992a5c6e04313f28979ed231aae7a:2:{i:0;s:15:\"_csrf-sdailover\";i:1;s:32:\"s-LzCpUPj0LMDS3j0V29dwzEmEWXHJh2\";}'
+    '_identity-sdailover' => '9b3940f717ebc52c1344d1a723b4be6d9970b4c43a56a2438241e97a3e496e85a:2:{i:0;s:19:\"_identity-sdailover\";i:1;s:25:\"[\"100\",\"demo100\",2592000]\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '42182'
+    'SERVER_SOFTWARE' => 'PHP 8.2.16 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8000'
+    'REQUEST_URI' => '/assets/5571aaee/yii.activeForm.js?v=1698766748'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/assets/5571aaee/yii.activeForm.js'
+    'SCRIPT_FILENAME' => 'api/index.php'
+    'PHP_SELF' => '/assets/5571aaee/yii.activeForm.js'
+    'QUERY_STRING' => 'v=1698766748'
+    'HTTP_HOST' => 'localhost:8000'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://localhost:8000/'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_session-sdailover=0id5mvp2tk22fa45g6g4rg4leb; _csrf-sdailover=7d9ac145a81057dc261345c033ffa5036770992a5c6e04313f28979ed231aae7a%3A2%3A%7Bi%3A0%3Bs%3A15%3A%22_csrf-sdailover%22%3Bi%3A1%3Bs%3A32%3A%22s-LzCpUPj0LMDS3j0V29dwzEmEWXHJh2%22%3B%7D; _identity-sdailover=9b3940f717ebc52c1344d1a723b4be6d9970b4c43a56a2438241e97a3e496e85a%3A2%3A%7Bi%3A0%3Bs%3A19%3A%22_identity-sdailover%22%3Bi%3A1%3Bs%3A25%3A%22%5B%22100%22%2C%22demo100%22%2C2592000%5D%22%3B%7D'
+    'HTTP_SEC_FETCH_DEST' => 'script'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'REQUEST_TIME_FLOAT' => 1709532623.5945
+    'REQUEST_TIME' => 1709532623
+]
+2024-03-04 13:10:23 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/5571aaee/yii.gridView.js". in /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Module.php:561
+Stack trace:
+#0 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#1 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#2 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/web/index.php(26): yii\base\Application->run()
+#3 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/api/index.php(17): require_once('...')
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#1 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/web/index.php(26): yii\base\Application->run()
+#2 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/api/index.php(17): require_once('...')
+#3 {main}
+2024-03-04 13:10:23 [::1][-][-][info][application] $_GET = [
+    'v' => '1698766748'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_session-sdailover' => '0id5mvp2tk22fa45g6g4rg4leb'
+    '_csrf-sdailover' => '7d9ac145a81057dc261345c033ffa5036770992a5c6e04313f28979ed231aae7a:2:{i:0;s:15:\"_csrf-sdailover\";i:1;s:32:\"s-LzCpUPj0LMDS3j0V29dwzEmEWXHJh2\";}'
+    '_identity-sdailover' => '9b3940f717ebc52c1344d1a723b4be6d9970b4c43a56a2438241e97a3e496e85a:2:{i:0;s:19:\"_identity-sdailover\";i:1;s:25:\"[\"100\",\"demo100\",2592000]\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '42186'
+    'SERVER_SOFTWARE' => 'PHP 8.2.16 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8000'
+    'REQUEST_URI' => '/assets/5571aaee/yii.gridView.js?v=1698766748'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/assets/5571aaee/yii.gridView.js'
+    'SCRIPT_FILENAME' => 'api/index.php'
+    'PHP_SELF' => '/assets/5571aaee/yii.gridView.js'
+    'QUERY_STRING' => 'v=1698766748'
+    'HTTP_HOST' => 'localhost:8000'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://localhost:8000/'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_session-sdailover=0id5mvp2tk22fa45g6g4rg4leb; _csrf-sdailover=7d9ac145a81057dc261345c033ffa5036770992a5c6e04313f28979ed231aae7a%3A2%3A%7Bi%3A0%3Bs%3A15%3A%22_csrf-sdailover%22%3Bi%3A1%3Bs%3A32%3A%22s-LzCpUPj0LMDS3j0V29dwzEmEWXHJh2%22%3B%7D; _identity-sdailover=9b3940f717ebc52c1344d1a723b4be6d9970b4c43a56a2438241e97a3e496e85a%3A2%3A%7Bi%3A0%3Bs%3A19%3A%22_identity-sdailover%22%3Bi%3A1%3Bs%3A25%3A%22%5B%22100%22%2C%22demo100%22%2C2592000%5D%22%3B%7D'
+    'HTTP_SEC_FETCH_DEST' => 'script'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'REQUEST_TIME_FLOAT' => 1709532623.5985
+    'REQUEST_TIME' => 1709532623
+]
+2024-03-04 13:10:23 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/a9a33927/dist/js/bootstrap.bundle.js". in /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Module.php:561
+Stack trace:
+#0 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#1 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#2 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/web/index.php(26): yii\base\Application->run()
+#3 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/api/index.php(17): require_once('...')
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#1 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/web/index.php(26): yii\base\Application->run()
+#2 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/api/index.php(17): require_once('...')
+#3 {main}
+2024-03-04 13:10:23 [::1][-][-][info][application] $_GET = [
+    'v' => '1708442069'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_session-sdailover' => '0id5mvp2tk22fa45g6g4rg4leb'
+    '_csrf-sdailover' => '7d9ac145a81057dc261345c033ffa5036770992a5c6e04313f28979ed231aae7a:2:{i:0;s:15:\"_csrf-sdailover\";i:1;s:32:\"s-LzCpUPj0LMDS3j0V29dwzEmEWXHJh2\";}'
+    '_identity-sdailover' => '9b3940f717ebc52c1344d1a723b4be6d9970b4c43a56a2438241e97a3e496e85a:2:{i:0;s:19:\"_identity-sdailover\";i:1;s:25:\"[\"100\",\"demo100\",2592000]\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '42194'
+    'SERVER_SOFTWARE' => 'PHP 8.2.16 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8000'
+    'REQUEST_URI' => '/assets/a9a33927/dist/js/bootstrap.bundle.js?v=1708442069'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/assets/a9a33927/dist/js/bootstrap.bundle.js'
+    'SCRIPT_FILENAME' => 'api/index.php'
+    'PHP_SELF' => '/assets/a9a33927/dist/js/bootstrap.bundle.js'
+    'QUERY_STRING' => 'v=1708442069'
+    'HTTP_HOST' => 'localhost:8000'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://localhost:8000/'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_session-sdailover=0id5mvp2tk22fa45g6g4rg4leb; _csrf-sdailover=7d9ac145a81057dc261345c033ffa5036770992a5c6e04313f28979ed231aae7a%3A2%3A%7Bi%3A0%3Bs%3A15%3A%22_csrf-sdailover%22%3Bi%3A1%3Bs%3A32%3A%22s-LzCpUPj0LMDS3j0V29dwzEmEWXHJh2%22%3B%7D; _identity-sdailover=9b3940f717ebc52c1344d1a723b4be6d9970b4c43a56a2438241e97a3e496e85a%3A2%3A%7Bi%3A0%3Bs%3A19%3A%22_identity-sdailover%22%3Bi%3A1%3Bs%3A25%3A%22%5B%22100%22%2C%22demo100%22%2C2592000%5D%22%3B%7D'
+    'HTTP_SEC_FETCH_DEST' => 'script'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'REQUEST_TIME_FLOAT' => 1709532623.6024
+    'REQUEST_TIME' => 1709532623
+]
+2024-03-04 13:10:23 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/836e5c2/js/sdailover.js". in /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Module.php:561
+Stack trace:
+#0 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#1 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#2 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/web/index.php(26): yii\base\Application->run()
+#3 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/api/index.php(17): require_once('...')
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#1 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/web/index.php(26): yii\base\Application->run()
+#2 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/api/index.php(17): require_once('...')
+#3 {main}
+2024-03-04 13:10:23 [::1][-][-][info][application] $_GET = [
+    'v' => '1709524851'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_session-sdailover' => '0id5mvp2tk22fa45g6g4rg4leb'
+    '_csrf-sdailover' => '7d9ac145a81057dc261345c033ffa5036770992a5c6e04313f28979ed231aae7a:2:{i:0;s:15:\"_csrf-sdailover\";i:1;s:32:\"s-LzCpUPj0LMDS3j0V29dwzEmEWXHJh2\";}'
+    '_identity-sdailover' => '9b3940f717ebc52c1344d1a723b4be6d9970b4c43a56a2438241e97a3e496e85a:2:{i:0;s:19:\"_identity-sdailover\";i:1;s:25:\"[\"100\",\"demo100\",2592000]\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '42202'
+    'SERVER_SOFTWARE' => 'PHP 8.2.16 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8000'
+    'REQUEST_URI' => '/assets/836e5c2/js/sdailover.js?v=1709524851'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/assets/836e5c2/js/sdailover.js'
+    'SCRIPT_FILENAME' => 'api/index.php'
+    'PHP_SELF' => '/assets/836e5c2/js/sdailover.js'
+    'QUERY_STRING' => 'v=1709524851'
+    'HTTP_HOST' => 'localhost:8000'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://localhost:8000/'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_session-sdailover=0id5mvp2tk22fa45g6g4rg4leb; _csrf-sdailover=7d9ac145a81057dc261345c033ffa5036770992a5c6e04313f28979ed231aae7a%3A2%3A%7Bi%3A0%3Bs%3A15%3A%22_csrf-sdailover%22%3Bi%3A1%3Bs%3A32%3A%22s-LzCpUPj0LMDS3j0V29dwzEmEWXHJh2%22%3B%7D; _identity-sdailover=9b3940f717ebc52c1344d1a723b4be6d9970b4c43a56a2438241e97a3e496e85a%3A2%3A%7Bi%3A0%3Bs%3A19%3A%22_identity-sdailover%22%3Bi%3A1%3Bs%3A25%3A%22%5B%22100%22%2C%22demo100%22%2C2592000%5D%22%3B%7D'
+    'HTTP_SEC_FETCH_DEST' => 'script'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'REQUEST_TIME_FLOAT' => 1709532623.606
+    'REQUEST_TIME' => 1709532623
+]
+2024-03-04 13:10:23 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/836e5c2/js/sdailover.tabWindow.js". in /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Module.php:561
+Stack trace:
+#0 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#1 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#2 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/web/index.php(26): yii\base\Application->run()
+#3 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/api/index.php(17): require_once('...')
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#1 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/web/index.php(26): yii\base\Application->run()
+#2 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/api/index.php(17): require_once('...')
+#3 {main}
+2024-03-04 13:10:23 [::1][-][-][info][application] $_GET = [
+    'v' => '1709524851'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_session-sdailover' => '0id5mvp2tk22fa45g6g4rg4leb'
+    '_csrf-sdailover' => '7d9ac145a81057dc261345c033ffa5036770992a5c6e04313f28979ed231aae7a:2:{i:0;s:15:\"_csrf-sdailover\";i:1;s:32:\"s-LzCpUPj0LMDS3j0V29dwzEmEWXHJh2\";}'
+    '_identity-sdailover' => '9b3940f717ebc52c1344d1a723b4be6d9970b4c43a56a2438241e97a3e496e85a:2:{i:0;s:19:\"_identity-sdailover\";i:1;s:25:\"[\"100\",\"demo100\",2592000]\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '42212'
+    'SERVER_SOFTWARE' => 'PHP 8.2.16 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8000'
+    'REQUEST_URI' => '/assets/836e5c2/js/sdailover.tabWindow.js?v=1709524851'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/assets/836e5c2/js/sdailover.tabWindow.js'
+    'SCRIPT_FILENAME' => 'api/index.php'
+    'PHP_SELF' => '/assets/836e5c2/js/sdailover.tabWindow.js'
+    'QUERY_STRING' => 'v=1709524851'
+    'HTTP_HOST' => 'localhost:8000'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://localhost:8000/'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_session-sdailover=0id5mvp2tk22fa45g6g4rg4leb; _csrf-sdailover=7d9ac145a81057dc261345c033ffa5036770992a5c6e04313f28979ed231aae7a%3A2%3A%7Bi%3A0%3Bs%3A15%3A%22_csrf-sdailover%22%3Bi%3A1%3Bs%3A32%3A%22s-LzCpUPj0LMDS3j0V29dwzEmEWXHJh2%22%3B%7D; _identity-sdailover=9b3940f717ebc52c1344d1a723b4be6d9970b4c43a56a2438241e97a3e496e85a%3A2%3A%7Bi%3A0%3Bs%3A19%3A%22_identity-sdailover%22%3Bi%3A1%3Bs%3A25%3A%22%5B%22100%22%2C%22demo100%22%2C2592000%5D%22%3B%7D'
+    'HTTP_SEC_FETCH_DEST' => 'script'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'REQUEST_TIME_FLOAT' => 1709532623.6096
+    'REQUEST_TIME' => 1709532623
+]
+2024-03-04 13:10:23 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "themes/vendors/popperjs/dist/umd/popper.js". in /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Module.php:561
+Stack trace:
+#0 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#1 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#2 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/web/index.php(26): yii\base\Application->run()
+#3 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/api/index.php(17): require_once('...')
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#1 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/web/index.php(26): yii\base\Application->run()
+#2 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/api/index.php(17): require_once('...')
+#3 {main}
+2024-03-04 13:10:23 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_session-sdailover' => '0id5mvp2tk22fa45g6g4rg4leb'
+    '_csrf-sdailover' => '7d9ac145a81057dc261345c033ffa5036770992a5c6e04313f28979ed231aae7a:2:{i:0;s:15:\"_csrf-sdailover\";i:1;s:32:\"s-LzCpUPj0LMDS3j0V29dwzEmEWXHJh2\";}'
+    '_identity-sdailover' => '9b3940f717ebc52c1344d1a723b4be6d9970b4c43a56a2438241e97a3e496e85a:2:{i:0;s:19:\"_identity-sdailover\";i:1;s:25:\"[\"100\",\"demo100\",2592000]\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '42220'
+    'SERVER_SOFTWARE' => 'PHP 8.2.16 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8000'
+    'REQUEST_URI' => '/themes/vendors/popperjs/dist/umd/popper.js'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/themes/vendors/popperjs/dist/umd/popper.js'
+    'SCRIPT_FILENAME' => 'api/index.php'
+    'PHP_SELF' => '/themes/vendors/popperjs/dist/umd/popper.js'
+    'HTTP_HOST' => 'localhost:8000'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://localhost:8000/'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_session-sdailover=0id5mvp2tk22fa45g6g4rg4leb; _csrf-sdailover=7d9ac145a81057dc261345c033ffa5036770992a5c6e04313f28979ed231aae7a%3A2%3A%7Bi%3A0%3Bs%3A15%3A%22_csrf-sdailover%22%3Bi%3A1%3Bs%3A32%3A%22s-LzCpUPj0LMDS3j0V29dwzEmEWXHJh2%22%3B%7D; _identity-sdailover=9b3940f717ebc52c1344d1a723b4be6d9970b4c43a56a2438241e97a3e496e85a%3A2%3A%7Bi%3A0%3Bs%3A19%3A%22_identity-sdailover%22%3Bi%3A1%3Bs%3A25%3A%22%5B%22100%22%2C%22demo100%22%2C2592000%5D%22%3B%7D'
+    'HTTP_SEC_FETCH_DEST' => 'script'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'REQUEST_TIME_FLOAT' => 1709532623.6132
+    'REQUEST_TIME' => 1709532623
+]
+2024-03-04 13:10:23 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "themes/vendors/fontawesome/js/all.min.js". in /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Module.php:561
+Stack trace:
+#0 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#1 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#2 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/web/index.php(26): yii\base\Application->run()
+#3 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/api/index.php(17): require_once('...')
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#1 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/web/index.php(26): yii\base\Application->run()
+#2 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/api/index.php(17): require_once('...')
+#3 {main}
+2024-03-04 13:10:23 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_session-sdailover' => '0id5mvp2tk22fa45g6g4rg4leb'
+    '_csrf-sdailover' => '7d9ac145a81057dc261345c033ffa5036770992a5c6e04313f28979ed231aae7a:2:{i:0;s:15:\"_csrf-sdailover\";i:1;s:32:\"s-LzCpUPj0LMDS3j0V29dwzEmEWXHJh2\";}'
+    '_identity-sdailover' => '9b3940f717ebc52c1344d1a723b4be6d9970b4c43a56a2438241e97a3e496e85a:2:{i:0;s:19:\"_identity-sdailover\";i:1;s:25:\"[\"100\",\"demo100\",2592000]\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '42222'
+    'SERVER_SOFTWARE' => 'PHP 8.2.16 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8000'
+    'REQUEST_URI' => '/themes/vendors/fontawesome/js/all.min.js'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/themes/vendors/fontawesome/js/all.min.js'
+    'SCRIPT_FILENAME' => 'api/index.php'
+    'PHP_SELF' => '/themes/vendors/fontawesome/js/all.min.js'
+    'HTTP_HOST' => 'localhost:8000'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://localhost:8000/'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_session-sdailover=0id5mvp2tk22fa45g6g4rg4leb; _csrf-sdailover=7d9ac145a81057dc261345c033ffa5036770992a5c6e04313f28979ed231aae7a%3A2%3A%7Bi%3A0%3Bs%3A15%3A%22_csrf-sdailover%22%3Bi%3A1%3Bs%3A32%3A%22s-LzCpUPj0LMDS3j0V29dwzEmEWXHJh2%22%3B%7D; _identity-sdailover=9b3940f717ebc52c1344d1a723b4be6d9970b4c43a56a2438241e97a3e496e85a%3A2%3A%7Bi%3A0%3Bs%3A19%3A%22_identity-sdailover%22%3Bi%3A1%3Bs%3A25%3A%22%5B%22100%22%2C%22demo100%22%2C2592000%5D%22%3B%7D'
+    'HTTP_SEC_FETCH_DEST' => 'script'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'REQUEST_TIME_FLOAT' => 1709532623.6184
+    'REQUEST_TIME' => 1709532623
+]
+2024-03-04 13:10:23 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/a9a33927/dist/css/bootstrap.css". in /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Module.php:561
+Stack trace:
+#0 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#1 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#2 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/web/index.php(26): yii\base\Application->run()
+#3 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/api/index.php(17): require_once('...')
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#1 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/web/index.php(26): yii\base\Application->run()
+#2 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/api/index.php(17): require_once('...')
+#3 {main}
+2024-03-04 13:10:23 [::1][-][-][info][application] $_GET = [
+    'v' => '1708442069'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_session-sdailover' => '0id5mvp2tk22fa45g6g4rg4leb'
+    '_csrf-sdailover' => '7d9ac145a81057dc261345c033ffa5036770992a5c6e04313f28979ed231aae7a:2:{i:0;s:15:\"_csrf-sdailover\";i:1;s:32:\"s-LzCpUPj0LMDS3j0V29dwzEmEWXHJh2\";}'
+    '_identity-sdailover' => '9b3940f717ebc52c1344d1a723b4be6d9970b4c43a56a2438241e97a3e496e85a:2:{i:0;s:19:\"_identity-sdailover\";i:1;s:25:\"[\"100\",\"demo100\",2592000]\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '42226'
+    'SERVER_SOFTWARE' => 'PHP 8.2.16 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8000'
+    'REQUEST_URI' => '/assets/a9a33927/dist/css/bootstrap.css?v=1708442069'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/assets/a9a33927/dist/css/bootstrap.css'
+    'SCRIPT_FILENAME' => 'api/index.php'
+    'PHP_SELF' => '/assets/a9a33927/dist/css/bootstrap.css'
+    'QUERY_STRING' => 'v=1708442069'
+    'HTTP_HOST' => 'localhost:8000'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://localhost:8000/'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_session-sdailover=0id5mvp2tk22fa45g6g4rg4leb; _csrf-sdailover=7d9ac145a81057dc261345c033ffa5036770992a5c6e04313f28979ed231aae7a%3A2%3A%7Bi%3A0%3Bs%3A15%3A%22_csrf-sdailover%22%3Bi%3A1%3Bs%3A32%3A%22s-LzCpUPj0LMDS3j0V29dwzEmEWXHJh2%22%3B%7D; _identity-sdailover=9b3940f717ebc52c1344d1a723b4be6d9970b4c43a56a2438241e97a3e496e85a%3A2%3A%7Bi%3A0%3Bs%3A19%3A%22_identity-sdailover%22%3Bi%3A1%3Bs%3A25%3A%22%5B%22100%22%2C%22demo100%22%2C2592000%5D%22%3B%7D'
+    'HTTP_SEC_FETCH_DEST' => 'style'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'REQUEST_TIME_FLOAT' => 1709532623.6223
+    'REQUEST_TIME' => 1709532623
+]
+2024-03-04 13:10:23 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/96755d25/bootstrap-icons.css". in /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Module.php:561
+Stack trace:
+#0 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#1 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#2 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/web/index.php(26): yii\base\Application->run()
+#3 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/api/index.php(17): require_once('...')
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#1 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/web/index.php(26): yii\base\Application->run()
+#2 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/api/index.php(17): require_once('...')
+#3 {main}
+2024-03-04 13:10:23 [::1][-][-][info][application] $_GET = [
+    'v' => '1704296685'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_session-sdailover' => '0id5mvp2tk22fa45g6g4rg4leb'
+    '_csrf-sdailover' => '7d9ac145a81057dc261345c033ffa5036770992a5c6e04313f28979ed231aae7a:2:{i:0;s:15:\"_csrf-sdailover\";i:1;s:32:\"s-LzCpUPj0LMDS3j0V29dwzEmEWXHJh2\";}'
+    '_identity-sdailover' => '9b3940f717ebc52c1344d1a723b4be6d9970b4c43a56a2438241e97a3e496e85a:2:{i:0;s:19:\"_identity-sdailover\";i:1;s:25:\"[\"100\",\"demo100\",2592000]\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '42242'
+    'SERVER_SOFTWARE' => 'PHP 8.2.16 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8000'
+    'REQUEST_URI' => '/assets/96755d25/bootstrap-icons.css?v=1704296685'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/assets/96755d25/bootstrap-icons.css'
+    'SCRIPT_FILENAME' => 'api/index.php'
+    'PHP_SELF' => '/assets/96755d25/bootstrap-icons.css'
+    'QUERY_STRING' => 'v=1704296685'
+    'HTTP_HOST' => 'localhost:8000'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://localhost:8000/'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_session-sdailover=0id5mvp2tk22fa45g6g4rg4leb; _csrf-sdailover=7d9ac145a81057dc261345c033ffa5036770992a5c6e04313f28979ed231aae7a%3A2%3A%7Bi%3A0%3Bs%3A15%3A%22_csrf-sdailover%22%3Bi%3A1%3Bs%3A32%3A%22s-LzCpUPj0LMDS3j0V29dwzEmEWXHJh2%22%3B%7D; _identity-sdailover=9b3940f717ebc52c1344d1a723b4be6d9970b4c43a56a2438241e97a3e496e85a%3A2%3A%7Bi%3A0%3Bs%3A19%3A%22_identity-sdailover%22%3Bi%3A1%3Bs%3A25%3A%22%5B%22100%22%2C%22demo100%22%2C2592000%5D%22%3B%7D'
+    'HTTP_SEC_FETCH_DEST' => 'style'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'REQUEST_TIME_FLOAT' => 1709532623.6258
+    'REQUEST_TIME' => 1709532623
+]
+2024-03-04 13:10:23 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/836e5c2/css/sdailover.css". in /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Module.php:561
+Stack trace:
+#0 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#1 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#2 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/web/index.php(26): yii\base\Application->run()
+#3 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/api/index.php(17): require_once('...')
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#1 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/web/index.php(26): yii\base\Application->run()
+#2 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/api/index.php(17): require_once('...')
+#3 {main}
+2024-03-04 13:10:23 [::1][-][-][info][application] $_GET = [
+    'v' => '1709524851'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_session-sdailover' => '0id5mvp2tk22fa45g6g4rg4leb'
+    '_csrf-sdailover' => '7d9ac145a81057dc261345c033ffa5036770992a5c6e04313f28979ed231aae7a:2:{i:0;s:15:\"_csrf-sdailover\";i:1;s:32:\"s-LzCpUPj0LMDS3j0V29dwzEmEWXHJh2\";}'
+    '_identity-sdailover' => '9b3940f717ebc52c1344d1a723b4be6d9970b4c43a56a2438241e97a3e496e85a:2:{i:0;s:19:\"_identity-sdailover\";i:1;s:25:\"[\"100\",\"demo100\",2592000]\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '42258'
+    'SERVER_SOFTWARE' => 'PHP 8.2.16 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8000'
+    'REQUEST_URI' => '/assets/836e5c2/css/sdailover.css?v=1709524851'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/assets/836e5c2/css/sdailover.css'
+    'SCRIPT_FILENAME' => 'api/index.php'
+    'PHP_SELF' => '/assets/836e5c2/css/sdailover.css'
+    'QUERY_STRING' => 'v=1709524851'
+    'HTTP_HOST' => 'localhost:8000'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://localhost:8000/'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_session-sdailover=0id5mvp2tk22fa45g6g4rg4leb; _csrf-sdailover=7d9ac145a81057dc261345c033ffa5036770992a5c6e04313f28979ed231aae7a%3A2%3A%7Bi%3A0%3Bs%3A15%3A%22_csrf-sdailover%22%3Bi%3A1%3Bs%3A32%3A%22s-LzCpUPj0LMDS3j0V29dwzEmEWXHJh2%22%3B%7D; _identity-sdailover=9b3940f717ebc52c1344d1a723b4be6d9970b4c43a56a2438241e97a3e496e85a%3A2%3A%7Bi%3A0%3Bs%3A19%3A%22_identity-sdailover%22%3Bi%3A1%3Bs%3A25%3A%22%5B%22100%22%2C%22demo100%22%2C2592000%5D%22%3B%7D'
+    'HTTP_SEC_FETCH_DEST' => 'style'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'REQUEST_TIME_FLOAT' => 1709532623.6294
+    'REQUEST_TIME' => 1709532623
+]
+2024-03-04 13:10:23 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "themes/css/main.css". in /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Module.php:561
+Stack trace:
+#0 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#1 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#2 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/web/index.php(26): yii\base\Application->run()
+#3 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/api/index.php(17): require_once('...')
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#1 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/web/index.php(26): yii\base\Application->run()
+#2 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/api/index.php(17): require_once('...')
+#3 {main}
+2024-03-04 13:10:23 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_session-sdailover' => '0id5mvp2tk22fa45g6g4rg4leb'
+    '_csrf-sdailover' => '7d9ac145a81057dc261345c033ffa5036770992a5c6e04313f28979ed231aae7a:2:{i:0;s:15:\"_csrf-sdailover\";i:1;s:32:\"s-LzCpUPj0LMDS3j0V29dwzEmEWXHJh2\";}'
+    '_identity-sdailover' => '9b3940f717ebc52c1344d1a723b4be6d9970b4c43a56a2438241e97a3e496e85a:2:{i:0;s:19:\"_identity-sdailover\";i:1;s:25:\"[\"100\",\"demo100\",2592000]\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '42274'
+    'SERVER_SOFTWARE' => 'PHP 8.2.16 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8000'
+    'REQUEST_URI' => '/themes/css/main.css'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/themes/css/main.css'
+    'SCRIPT_FILENAME' => 'api/index.php'
+    'PHP_SELF' => '/themes/css/main.css'
+    'HTTP_HOST' => 'localhost:8000'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://localhost:8000/'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_session-sdailover=0id5mvp2tk22fa45g6g4rg4leb; _csrf-sdailover=7d9ac145a81057dc261345c033ffa5036770992a5c6e04313f28979ed231aae7a%3A2%3A%7Bi%3A0%3Bs%3A15%3A%22_csrf-sdailover%22%3Bi%3A1%3Bs%3A32%3A%22s-LzCpUPj0LMDS3j0V29dwzEmEWXHJh2%22%3B%7D; _identity-sdailover=9b3940f717ebc52c1344d1a723b4be6d9970b4c43a56a2438241e97a3e496e85a%3A2%3A%7Bi%3A0%3Bs%3A19%3A%22_identity-sdailover%22%3Bi%3A1%3Bs%3A25%3A%22%5B%22100%22%2C%22demo100%22%2C2592000%5D%22%3B%7D'
+    'HTTP_SEC_FETCH_DEST' => 'style'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'REQUEST_TIME_FLOAT' => 1709532623.6339
+    'REQUEST_TIME' => 1709532623
+]
+2024-03-04 13:10:23 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "themes/css/print.css". in /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Module.php:561
+Stack trace:
+#0 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#1 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#2 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/web/index.php(26): yii\base\Application->run()
+#3 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/api/index.php(17): require_once('...')
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#1 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/web/index.php(26): yii\base\Application->run()
+#2 /datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2/api/index.php(17): require_once('...')
+#3 {main}
+2024-03-04 13:10:23 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_session-sdailover' => '0id5mvp2tk22fa45g6g4rg4leb'
+    '_csrf-sdailover' => '7d9ac145a81057dc261345c033ffa5036770992a5c6e04313f28979ed231aae7a:2:{i:0;s:15:\"_csrf-sdailover\";i:1;s:32:\"s-LzCpUPj0LMDS3j0V29dwzEmEWXHJh2\";}'
+    '_identity-sdailover' => '9b3940f717ebc52c1344d1a723b4be6d9970b4c43a56a2438241e97a3e496e85a:2:{i:0;s:19:\"_identity-sdailover\";i:1;s:25:\"[\"100\",\"demo100\",2592000]\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/datastore/Developments/Apache/www/public_html/sdailover/PhpDbSessionYii2'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '42278'
+    'SERVER_SOFTWARE' => 'PHP 8.2.16 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8000'
+    'REQUEST_URI' => '/themes/css/print.css'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/themes/css/print.css'
+    'SCRIPT_FILENAME' => 'api/index.php'
+    'PHP_SELF' => '/themes/css/print.css'
+    'HTTP_HOST' => 'localhost:8000'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://localhost:8000/'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_session-sdailover=0id5mvp2tk22fa45g6g4rg4leb; _csrf-sdailover=7d9ac145a81057dc261345c033ffa5036770992a5c6e04313f28979ed231aae7a%3A2%3A%7Bi%3A0%3Bs%3A15%3A%22_csrf-sdailover%22%3Bi%3A1%3Bs%3A32%3A%22s-LzCpUPj0LMDS3j0V29dwzEmEWXHJh2%22%3B%7D; _identity-sdailover=9b3940f717ebc52c1344d1a723b4be6d9970b4c43a56a2438241e97a3e496e85a%3A2%3A%7Bi%3A0%3Bs%3A19%3A%22_identity-sdailover%22%3Bi%3A1%3Bs%3A25%3A%22%5B%22100%22%2C%22demo100%22%2C2592000%5D%22%3B%7D'
+    'HTTP_SEC_FETCH_DEST' => 'style'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'REQUEST_TIME_FLOAT' => 1709532623.6395
+    'REQUEST_TIME' => 1709532623
+]

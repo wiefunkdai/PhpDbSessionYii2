@@ -1,0 +1,8 @@
+@media print {
+    .sidebar  {
+        display: none!important;
+    }
+    .sidebar.collapse:is(.show) ~ .content {
+        display: block!important;
+    }
+}

@@ -1,0 +1,107 @@
+{
+    "name": "wiefunkdai/phpdbsessionyii2",
+    "description": "Demo runtime SDaiLover PHP Sesssion Connector for Yii2 Framework",
+    "keywords": ["sdailover","yii2", "framework", "phpsessconnector", "wiefunkdai"],
+    "homepage": "https://www.stephanusdai.web.id/",
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/wiefunkdai/phpdbsessionyii2/issues?state=open",
+        "homepage": "https://www.stephanusdai.web.id/",
+        "source": "https://github.com/wiefunkdai/phpdbsessionyii2"
+    },
+    "authors": [
+        {
+            "name": "Stephanus Bagus Saputra ( 戴 Dai 偉 Wie 峯 Funk )",
+            "email": "wiefunk@stephanusdai.web.id",
+            "homepage": "https://stephanusdai.web.id/"
+        }
+    ],
+    "funding": [
+        {
+            "type": "patreon",
+            "url": "https://www.patreon.com/wiefunkdai"
+        },
+        {
+            "type": "github",
+            "url": "https://github.com/sponsors/wiefunkdai"
+        },
+        {
+            "type": "opencollective",
+            "url": "https://opencollective.com/wiefunkdai"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.4.0",
+        "yiisoft/yii2": "~2.0.48",
+        "yiisoft/yii2-bootstrap5": "~2.0.4",
+        "yiisoft/yii2-debug": "~2.1.0",
+        "yiisoft/yii2-gii": "~2.2.0",
+        "yiisoft/yii2-faker": "~2.0.0",
+        "yiisoft/yii2-symfonymailer": "~2.0.3",
+        "yiisoft/yii2-composer": "^2.0",
+        "twbs/bootstrap-icons": "^1.11.3",
+        "bower-asset/bootstrap": "^5.3.3",
+        "bower-asset/jquery": "^3.7.1",
+        "bower-asset/yii2-pjax": "^2.0",
+        "bower-asset/punycode": "^1.3",
+        "bower-asset/inputmask": "^3.3",
+        "sdailover/yii2-phpsessconnector": "^1.0",
+        "sdailover/yii2-sdailoverwidgets": "^1.0"
+    },
+    "require-dev": {
+        "yiisoft/yii2-debug": "~2.1.0",
+        "yiisoft/yii2-gii": "~2.2.0",
+        "yiisoft/yii2-faker": "~2.0.0",
+        "phpunit/phpunit": "~9.5.0",
+        "codeception/codeception": "^5.0.0 || ^4.0",
+        "codeception/lib-innerbrowser": "^4.0 || ^3.0 || ^1.1",
+        "codeception/module-asserts": "^3.0 || ^1.1",
+        "codeception/module-yii2": "^1.1",
+        "codeception/module-filesystem": "^3.0 || ^2.0 || ^1.1",
+        "codeception/verify": "^3.0 || ^2.2",
+        "symfony/browser-kit": "^6.0 || >=2.7 <=4.2.4"
+    },
+    "config": {
+        "allow-plugins": {
+            "yiisoft/yii2-composer" : true
+        },
+        "process-timeout": 1800,
+        "fxp-asset": {
+            "enabled": false
+        }
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "yii\\composer\\Installer::postInstall"
+        ],
+        "post-create-project-cmd": [
+            "yii\\composer\\Installer::postCreateProject",
+            "yii\\composer\\Installer::postInstall"
+        ]
+    },
+    "extra": {
+        "yii\\composer\\Installer::postCreateProject": {
+            "setPermission": [
+                {
+                    "runtime": "0777",
+                    "assets": "0777",
+                    "web/assets": "0777",
+                    "yii": "0755"
+                }
+            ]
+        },
+        "yii\\composer\\Installer::postInstall": {
+            "generateCookieValidationKey": [
+                "config/web.php"
+            ]
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
+}

@@ -1,0 +1,308 @@
+/**
+ * SDaiLover Web Packages
+ *
+ * @author    : Stephanus Bagus Saputra,
+ *              ( 戴 Dai 偉 Wie 峯 Funk )
+ * @email     : wiefunk@stephanusdai.web.id
+ * @contact   : https://t.me/wiefunkdai
+ * @support   : https://opencollective.com/wiefunkdai
+ * @link      : https://www.sdailover.com,
+ *              https://www.stephanusdai.web.id
+ * @license   : https://www.sdailover.com/license.html
+ * @copyright : (c) ID 2023-2024 SDaiLover. All rights reserved.
+ * This software has released under the terms of the BSD License.
+ */
+
+@charset "UTF-8";
+
+.tab-window {
+    font-size: .875rem;
+}
+.tab-window .nav-tabs .nav-link .nav-close {
+    display: none;
+}
+.tab-window .nav-tabs .nav-link.active > .nav-close {
+    display: inline-block;
+}
+.grid-responsive {
+    margin-bottom: 2rem;
+}
+.grid-responsive table {
+    border-collapse: separate !important;
+    border-spacing: 0;
+    margin: auto;
+    border: 1px solid rgba(222,226,230,0.5);
+    box-shadow: 0px 0px 8px 1px rgba(222,226,230,0.2);
+    -webkit-box-shadow: 0px 0px 8px 1px rgba(222,226,230,0.2);
+    -moz-box-shadow: 0px 0px 8px 1px rgba(222,226,230,0.2);
+}
+.grid-responsive table a {
+    color: #242437;
+}
+.grid-responsive table thead > tr > th {
+    background: #2a579a;
+    color: #fff;
+}
+.grid-responsive table thead > tr > th a {
+    color: #fff;
+    text-decoration: none;
+}
+.grid-responsive table thead > tr > td.sorting,
+.grid-responsive table thead > tr > td.sorting_asc,
+.grid-responsive table thead > tr > td.sorting_desc,
+.grid-responsive table thead > tr > th.sorting,
+.grid-responsive table thead > tr > th.sorting_asc,
+.grid-responsive table thead > tr > th.sorting_desc {
+    padding-right: 30px;
+}
+.grid-responsive table thead .sorting,
+.grid-responsive table thead .sorting_asc,
+.grid-responsive table thead .sorting_asc_disabled,
+.grid-responsive table thead .sorting_desc,
+.grid-responsive table thead .sorting_desc_disabled {
+    cursor: pointer;
+    position: relative;
+}
+.grid-responsive table thead .sorting:after,
+.grid-responsive table thead .sorting:before,
+.grid-responsive table thead .sorting_asc:after,
+.grid-responsive table thead .sorting_asc:before,
+.grid-responsive table thead .sorting_asc_disabled:after,
+.grid-responsive table thead .sorting_asc_disabled:before,
+.grid-responsive table thead .sorting_desc:after,
+.grid-responsive table thead .sorting_desc:before,
+.grid-responsive table thead .sorting_desc_disabled:after,
+.grid-responsive table thead .sorting_desc_disabled:before {
+    position: absolute;
+    bottom: 0.9rem;
+    display: block;
+    margin: 0 -32px -14px 0px;
+    opacity: 0.3;
+}
+.grid-responsive table thead .sorting:before,
+.grid-responsive table thead .sorting_asc:before,
+.grid-responsive table thead .sorting_asc_disabled:before,
+.grid-responsive table thead .sorting_desc:before,
+.grid-responsive table thead .sorting_desc_disabled:before {
+    right: 1em;
+    font-family: bootstrap-icons !important;
+    content: "\2191";
+}
+.grid-responsive table thead .sorting:after,
+.grid-responsive table thead .sorting_asc:after,
+.grid-responsive table thead .sorting_asc_disabled:after,
+.grid-responsive table thead .sorting_desc:after,
+.grid-responsive table thead .sorting_desc_disabled:after {
+    right: 0.5em;
+    font-family: bootstrap-icons !important;
+    content: "\2193";
+}
+.grid-responsive table thead .sorting_asc:before,
+.grid-responsive table thead .sorting_desc:after {
+    opacity: 1;
+}
+.grid-responsive table thead .sorting_asc_disabled:before,
+.grid-responsive table thead .sorting_desc_disabled:after {
+    opacity: 0;
+}
+.grid-responsive table.table-sm .sorting:before,
+.grid-responsive table.table-sm .sorting_asc:before,
+.grid-responsive table.table-sm .sorting_desc:before {
+    top: 5px;
+    right: 0.85em;
+}
+.grid-responsive table.table-sm .sorting:after,
+.grid-responsive table.table-sm .sorting_asc:after,
+.grid-responsive table.table-sm .sorting_desc:after {
+    top: 5px;
+}
+.grid-responsive table td {
+    position: relative;   
+}
+.grid-responsive table.nowrap td,
+.grid-responsive table.nowrap th {
+    white-space: nowrap;
+}
+.grid-responsive table thead > tr > td:active,
+.grid-responsive table thead > tr > th:active {
+    outline: 0;
+}
+.grid-responsive table tbody tr:hover th,
+.grid-responsive table tbody tr:hover td {
+    background-color: #ececf6;
+    transition: all .2s;
+}
+.grid-responsive table td:empty,
+.grid-responsive table th:empty {
+    text-align: center;
+}
+.grid-responsive table a.grid-expand {
+	color: #717171;
+	display: block;
+	position: absolute;
+	right: 0;
+	top: -5px;
+	padding: 10px;
+	display: none;
+}
+.grid-responsive table .toolbox {
+	width: 70px;
+    display: flex;
+    gap: 10px;
+}
+.grid-responsive table .toolbox a {
+    font-size: 10px;
+}
+.grid-responsive table .toolbox a.remove {
+	float: left;
+}
+.grid-responsive table .toolbox a.update {
+	float: left;
+}
+.grid-responsive ul.pagination {
+    margin: 2px 0;
+    white-space: nowrap;
+    justify-content: flex-end;
+}
+.grid-responsive table tbody td:has(.empty) {
+    display: table-cell;
+}
+@media screen and (max-width: 767px) {
+    .grid-responsive table {
+        width: 100%;
+    }
+    .grid-responsive .table > :not(caption) > * > * {
+        padding: 0.25rem 0.5rem;
+    }
+    .grid-responsive table thead th.column-primary {
+        width: 100%;
+    }
+    .grid-responsive table thead th:not(.column-primary) {
+        display:none;
+    }
+    .grid-responsive table .title {
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    .grid-responsive table th[scope="row"] {
+        vertical-align: top;
+    }
+    .grid-responsive table td {
+        display: table-cell;
+        width: auto;
+    }
+    .grid-responsive table td .grid-expand {
+        display: block !important;
+    }
+    .grid-responsive table td:nth-child(n+3)::before {
+        float: left;
+        font-weight: bold;
+        text-align: left;
+        content: attr(data-header);
+        /*width: 80px;*/
+        padding-right: 1rem;
+    }
+    .grid-responsive table td:nth-child(n+3)::after {
+        clear: both;
+        content: "";
+        display: table;
+    }
+    .grid-responsive table tr.expanded td {
+        display: block;
+        width: auto;
+    }
+    .grid-responsive table tr.expanded td:nth-child(n+3) {
+        display: flex;
+        flex-direction: column;
+    }
+    .grid-responsive table tr.expanded td:nth-last-child(-n+1),
+    .grid-responsive table tr.expanded td:nth-child(n+3):is(:nth-last-child(-n+1)),
+    .grid-responsive table tr.expanded td:nth-child(n+3):is(:nth-last-child(-n+1))::after {
+        padding-bottom: 16px!important;
+    }
+    .grid-responsive table td:nth-child(n+3) {
+        display: none;
+    }
+    .grid-responsive table .toolbox {
+        gap: 5px;
+    }
+}
+.grid-responsive ul.pagination li a,
+.grid-responsive table.table-hover tbody tr {
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+}
+.grid-responsive ul.pagination {
+    border-radius: 3px;
+    margin-top: 1rem;
+    display: flex;
+    padding-left: 0;
+    list-style: none;    
+}
+.grid-responsive ul.pagination li a,
+.grid-responsive ul.pagination li.disabled span {
+    padding: 4px 10px;
+    min-width: 30px;
+    line-height: 20px;
+    font-size: 12px;
+    margin-left: 0;
+    text-align: center;
+    color: #323c47;
+    border-color: #d7dde3;
+    outline: 0;
+    background: #fff;
+    border: 1px solid #dee2e6;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+}
+.grid-responsive ul.pagination li a:hover {
+    background: #f2f2f2;
+}
+.grid-responsive ul.pagination li.active a {
+    border-color: #fd7e14;
+    background: #fd7e14;
+    color: #fff;
+}
+.grid-responsive ul.pagination li.disabled:last-child {
+    margin-left: 0;
+}
+.grid-responsive ul.pagination li:first-child a,
+.grid-responsive ul.pagination li.disabled:first-child span {
+    border-top-left-radius: 3px !important;
+    border-bottom-left-radius: 3px !important;
+}
+.grid-responsive ul.pagination li:last-child a,
+.grid-responsive ul.pagination li.disabled:last-child span {
+    border-top-right-radius: 3px !important;
+    border-bottom-right-radius: 3px !important;
+}
+.grid-responsive ul.pagination li.disabled > * {
+    background-color: #e2e3e5;
+}
+.grid-responsive ul.pagination--space li a {
+    margin-right: 5px;
+}
+.grid-responsive ul.pagination.pagination-lg li a {
+    padding: 14px 15px;
+    min-width: 50px;
+    font-size: 13px;    
+}
+.grid-responsive ul.pagination.pagination-sm li a {
+    padding: 4px 10px;
+    min-width: 30px;
+    font-size: 12px;
+}
+.grid-responsive .summary {
+    margin-top: 1.25rem;
+}
+
+@media screen and (max-width: 767px) {
+    .grid-responsive .summary {
+        text-align: center;
+    }
+    .grid-responsive ul.pagination {
+        text-align: center;
+        justify-content: center;
+    }
+}

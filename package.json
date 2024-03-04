@@ -1,0 +1,42 @@
+{
+  "name": "PhpDbSessionYii2",
+  "version": "1.0.0",
+  "description": "Application Demo for Data Session of Yii 2.0 Framework",
+  "licenses": [
+    {
+      "type": "BSD",
+      "url": "https://github.com/wiefunkdai/PhpDbSessionYii2/blob/master/LICENSE"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wiefunkdai/PhpDbSessionYii2.git"
+  },
+  "funding": [
+    {
+      "type": "github",
+      "url": "https://github.com/sponsors/sdailover"
+    },
+    {
+      "type": "opencollective",
+      "url": "https://opencollective.com/sdailover"
+    }
+  ],
+  "keywords": [
+    "sdailover",
+    "yii2",
+    "phpsession",
+    "phpsessconnector"
+  ],
+  "author": "wiefunkdai",
+  "homepage": "https://sdailover.com/",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
+    "inputmask": "^3.3",
+    "jquery": "^3.7.1",
+    "vercel": "^33.5.3",
+    "punycode": "^1.3",
+    "yii2-pjax": "^2.0.8"
+  }
+}
